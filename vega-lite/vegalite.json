@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/data/cleaned/hicp.csv",
+    "format": {"type": "csv"}
+  },
+
+  "params": [
+    {
+      "name": "yearSelection",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2024,
+        "step": 1
+      }
+    },
+    {
+      "name": "commodityIDSel",
+      "select": {"type": "point", "fields": ["Commodity Group"]},
+      "bind": "legend",
+      "value": "00"
+    }
+  ],
+
+  "vconcat": [
+
+    {
+      "hconcat": [
+
+        /* LEFT — MAIN SECTIONS (BAR CHART) */
+        {
+          "title": "Main Sections (Bar Chart)",
+          "mark": "bar",
+          "encoding": {
+            "y": {
+              "field": "CommodityName",
+              "type": "nominal",
+              "sort": "-x"
+            },
+            "x": {
+              "field": "VALUE",
+              "type": "quantitative",
+              "scale": {"domain": [0, 240]}
+            },
+            "color": {
+              "field": "CommodityName",
+              "type": "nominal"
+            }
+          },
+          "transform": [
+            {"filter": "datum.Year == yearSelection"},
+            {"filter": "datum.IsMainCommodity == 1"}
+          ]
+        },
+
+        /* RIGHT — SUBSECTIONS (RADIAL CHART) */
+        {
+          "title": "Subsections (Radial Chart)",
+          "mark": {"type": "arc", "innerRadius": 40},
+          "encoding": {
+            "theta": {
+              "field": "VALUE_PLACEHOLDER",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "SUBCATEGORY_PLACEHOLDER",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    },
+
+    /* BOTTOM — MAIN SECTIONS OVER TIME (LINE CHART) */
+    {
+      "title": "Main Sections Over Time (Line Chart)",
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal"},
+        "y": {"field": "VALUE", "type": "quantitative"},
+        "color": {"field": "CommodityName", "type": "nominal"}
+      },
+      "transform": [
+        {"filter": "datum.IsMainCommodity == 1"}
+      ]
+    }
+  ]
+}

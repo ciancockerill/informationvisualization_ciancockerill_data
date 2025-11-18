@@ -12,8 +12,8 @@ def main():
 
     # Split Existing Commodity Group Column
     cg_series = df['Commodity Group']
-    cg_series_code = cg_series.str.extract('\(COICOP\s(.*)\)') # Sewerage collection (COICOP 04.4.3) -> 04.4.3
-    cg_series_name = cg_series.str.extract('(.*)(?:\s\(.*\))') # Sewerage collection (COICOP 04.4.3) -> Sewerage collection
+    cg_series_code = cg_series.str.extract(r'\(COICOP\s(.*)\)') # Sewerage collection (COICOP 04.4.3) -> 04.4.3
+    cg_series_name = cg_series.str.extract(r'(.*)(?:\s\(.*\))') # Sewerage collection (COICOP 04.4.3) -> Sewerage collection
 
     df = df.drop(columns=['Commodity Group'])
     df['CommodityName'] = cg_series_name
@@ -29,6 +29,18 @@ def main():
     # Drop if value = NA or 0
     df = df.dropna(subset=["VALUE"])
     df = df[df["VALUE"] != 0]
+
+    # Order Columns
+    order = [
+        "CommodityCode",
+        "CommodityName",
+        "Year",
+        "IsMainCommodity",
+        "ParentCommodity",
+        "VALUE"
+    ]
+
+    df = df[order]
 
     df.to_csv('data/cleaned/hicp.csv', index=False)
 

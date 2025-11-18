@@ -1,0 +1,1215 @@
+Year,VALUE,CommodityName,CommodityCode,IsMainCommodity,ParentCommodity
+2015,100.0,All-items HICP,00,1,00
+2015,100.0,Food and non-alcoholic beverages,01,1,00
+2015,100.0,Food,01.1,0,01
+2015,100.0,Bread and cereals,01.1.1,0,01
+2015,100.0,Meat,01.1.2,0,01
+2015,100.0,Fish and seafood,01.1.3,0,01
+2015,100.0,"Milk, cheese and eggs",01.1.4,0,01
+2015,100.0,Oils and fats,01.1.5,0,01
+2015,100.0,Fruit,01.1.6,0,01
+2015,100.0,Vegetables,01.1.7,0,01
+2015,100.0,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2015,100.0,Food products n.e.c.,01.1.9,0,01
+2015,100.0,Non-alcoholic beverages,01.2,0,01
+2015,100.0,"Coffee, tea and cocoa",01.2.1,0,01
+2015,100.0,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2015,100.0,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2015,100.0,Alcoholic beverages,02.1,0,02
+2015,100.0,Spirits,02.1.1,0,02
+2015,100.0,Wine,02.1.2,0,02
+2015,100.0,Beer,02.1.3,0,02
+2015,100.0,Tobacco,02.2,0,02
+2015,100.0,Clothing and footwear,03,1,00
+2015,100.0,Clothing,03.1,0,03
+2015,100.0,Garments,03.1.2,0,03
+2015,100.0,Other articles of clothing and clothing accessories,03.1.3,0,03
+2015,100.0,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2015,100.0,Footwear,03.2,0,03
+2015,100.0,"Housing, water, electricity, gas and other fuels",04,1,00
+2015,100.0,Actual rentals for housing,04.1,0,04
+2015,100.0,Maintenance and repair of the dwelling,04.3,0,04
+2015,100.0,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2015,100.0,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2015,100.0,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2015,100.0,Water supply,04.4.1,0,04
+2015,100.0,Refuse collection,04.4.2,0,04
+2015,100.0,Sewerage collection,04.4.3,0,04
+2015,100.0,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2015,100.0,"Electricity, gas and other fuels",04.5,0,04
+2015,100.0,Electricity,04.5.1,0,04
+2015,100.0,Gas,04.5.2,0,04
+2015,100.0,Liquid fuels,04.5.3,0,04
+2015,100.0,Solid fuels,04.5.4,0,04
+2015,100.0,"Furnishings, household equipment and routine household maintenance",05,1,00
+2015,100.0,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2015,100.0,Furniture and furnishings,05.1.1,0,05
+2015,100.0,Carpets and other floor coverings,05.1.2,0,05
+2015,100.0,Household textiles,05.2,0,05
+2015,100.0,Household appliances,05.3,0,05
+2015,100.0,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2015,100.0,Repair of household appliances,05.3.3,0,05
+2015,100.0,"Glassware, tableware and household utensils",05.4,0,05
+2015,100.0,Tools and equipment for house and garden,05.5,0,05
+2015,100.0,Goods and services for routine household maintenance,05.6,0,05
+2015,100.0,Non-durable household goods,05.6.1,0,05
+2015,100.0,Domestic services and household services,05.6.2,0,05
+2015,100.0,Health,06,1,00
+2015,100.0,"Medical products, appliances and equipment",06.1,0,06
+2015,100.0,Pharmaceutical products,06.1.1,0,06
+2015,100.0,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2015,100.0,Out-patient services,06.2,0,06
+2015,100.0,Medical services and paramedical services,06.2.1_3,0,06
+2015,100.0,Dental services,06.2.2,0,06
+2015,100.0,Hospital services,06.3,0,06
+2015,100.0,Transport,07,1,00
+2015,100.0,Purchase of vehicles,07.1,0,07
+2015,100.0,Motor cars,07.1.1,0,07
+2015,100.0,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2015,100.0,Operation of personal transport equipment,07.2,0,07
+2015,100.0,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2015,100.0,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2015,100.0,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2015,100.0,Other services in respect of personal transport equipment,07.2.4,0,07
+2015,100.0,Transport services,07.3,0,07
+2015,100.0,Passenger transport by railway,07.3.1,0,07
+2015,100.0,Passenger transport by road,07.3.2,0,07
+2015,100.0,Passenger transport by air,07.3.3,0,07
+2015,100.0,Passenger transport by sea and inland waterway,07.3.4,0,07
+2015,100.0,Combined passenger transport,07.3.5,0,07
+2015,100.0,Other purchased transport services,07.3.6,0,07
+2015,100.0,Communications,08,1,00
+2015,100.0,Postal services,08.1,0,08
+2015,100.0,Telephone and telefax equipment and services,08.2_3,0,08
+2015,100.0,Recreation and culture,09,1,00
+2015,100.0,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2015,100.0,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2015,100.0,Information processing equipment,09.1.3,0,09
+2015,100.0,Recording media,09.1.4,0,09
+2015,100.0,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2015,100.0,Other major durables for recreation and culture,09.2,0,09
+2015,100.0,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2015,100.0,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2015,100.0,"Games, toys and hobbies",09.3.1,0,09
+2015,100.0,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2015,100.0,"Gardens, plants and flowers",09.3.3,0,09
+2015,100.0,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2015,100.0,Recreational and cultural services,09.4,0,09
+2015,100.0,Recreational and sporting services,09.4.1,0,09
+2015,100.0,Cultural services,09.4.2,0,09
+2015,100.0,"Newspapers, books and stationery",09.5,0,09
+2015,100.0,Books,09.5.1,0,09
+2015,100.0,Newspapers and periodicals,09.5.2,0,09
+2015,100.0,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2015,100.0,Package holidays,09.6,0,09
+2015,100.0,Education,10,1,00
+2015,100.0,Restaurants and hotels,11,1,00
+2015,100.0,Catering services,11.1,0,11
+2015,100.0,"Restaurants, cafes and the like",11.1.1,0,11
+2015,100.0,Canteens,11.1.2,0,11
+2015,100.0,Accommodation services,11.2,0,11
+2015,100.0,Miscellaneous goods and services,12,1,00
+2015,100.0,Personal care,12.1,0,12
+2015,100.0,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2015,100.0,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2015,100.0,Personal effects n.e.c.,12.3,0,12
+2015,100.0,"Jewellery, clocks and watches",12.3.1,0,12
+2015,100.0,Other personal effects,12.3.2,0,12
+2015,100.0,Social protection,12.4,0,12
+2015,100.0,Insurance,12.5,0,12
+2015,100.0,Insurance connected with the dwelling,12.5.2,0,12
+2015,100.0,Insurance connected with health,12.5.3,0,12
+2015,100.0,Insurance connected with transport,12.5.4,0,12
+2015,100.0,Financial services n.e.c.,12.6,0,12
+2015,100.0,Other services n.e.c.,12.7,0,12
+2016,99.8,All-items HICP,00,1,00
+2016,98.7,Food and non-alcoholic beverages,01,1,00
+2016,98.6,Food,01.1,0,01
+2016,97.9,Bread and cereals,01.1.1,0,01
+2016,97.5,Meat,01.1.2,0,01
+2016,100.0,Fish and seafood,01.1.3,0,01
+2016,98.1,"Milk, cheese and eggs",01.1.4,0,01
+2016,100.2,Oils and fats,01.1.5,0,01
+2016,100.1,Fruit,01.1.6,0,01
+2016,101.5,Vegetables,01.1.7,0,01
+2016,97.3,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2016,99.2,Food products n.e.c.,01.1.9,0,01
+2016,99.1,Non-alcoholic beverages,01.2,0,01
+2016,98.2,"Coffee, tea and cocoa",01.2.1,0,01
+2016,99.3,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2016,101.5,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2016,97.1,Alcoholic beverages,02.1,0,02
+2016,99.8,Spirits,02.1.1,0,02
+2016,95.7,Wine,02.1.2,0,02
+2016,97.9,Beer,02.1.3,0,02
+2016,106.8,Tobacco,02.2,0,02
+2016,97.5,Clothing and footwear,03,1,00
+2016,97.6,Clothing,03.1,0,03
+2016,97.5,Garments,03.1.2,0,03
+2016,98.6,Other articles of clothing and clothing accessories,03.1.3,0,03
+2016,101.0,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2016,97.4,Footwear,03.2,0,03
+2016,101.5,"Housing, water, electricity, gas and other fuels",04,1,00
+2016,108.7,Actual rentals for housing,04.1,0,04
+2016,100.2,Maintenance and repair of the dwelling,04.3,0,04
+2016,97.9,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2016,101.6,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2016,85.5,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2016,50.0,Water supply,04.4.1,0,04
+2016,101.1,Refuse collection,04.4.2,0,04
+2016,50.0,Sewerage collection,04.4.3,0,04
+2016,101.0,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2016,94.9,"Electricity, gas and other fuels",04.5,0,04
+2016,96.4,Electricity,04.5.1,0,04
+2016,97.0,Gas,04.5.2,0,04
+2016,85.8,Liquid fuels,04.5.3,0,04
+2016,99.6,Solid fuels,04.5.4,0,04
+2016,96.8,"Furnishings, household equipment and routine household maintenance",05,1,00
+2016,93.5,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2016,93.5,Furniture and furnishings,05.1.1,0,05
+2016,100.1,Carpets and other floor coverings,05.1.2,0,05
+2016,95.0,Household textiles,05.2,0,05
+2016,97.5,Household appliances,05.3,0,05
+2016,97.4,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2016,100.0,Repair of household appliances,05.3.3,0,05
+2016,97.8,"Glassware, tableware and household utensils",05.4,0,05
+2016,96.7,Tools and equipment for house and garden,05.5,0,05
+2016,98.5,Goods and services for routine household maintenance,05.6,0,05
+2016,95.4,Non-durable household goods,05.6.1,0,05
+2016,102.6,Domestic services and household services,05.6.2,0,05
+2016,100.7,Health,06,1,00
+2016,100.0,"Medical products, appliances and equipment",06.1,0,06
+2016,99.9,Pharmaceutical products,06.1.1,0,06
+2016,100.4,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2016,102.2,Out-patient services,06.2,0,06
+2016,102.7,Medical services and paramedical services,06.2.1_3,0,06
+2016,101.1,Dental services,06.2.2,0,06
+2016,100.1,Hospital services,06.3,0,06
+2016,96.5,Transport,07,1,00
+2016,96.6,Purchase of vehicles,07.1,0,07
+2016,96.6,Motor cars,07.1.1,0,07
+2016,97.9,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2016,94.8,Operation of personal transport equipment,07.2,0,07
+2016,98.6,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2016,92.8,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2016,100.2,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2016,99.2,Other services in respect of personal transport equipment,07.2.4,0,07
+2016,100.2,Transport services,07.3,0,07
+2016,102.1,Passenger transport by railway,07.3.1,0,07
+2016,100.9,Passenger transport by road,07.3.2,0,07
+2016,93.7,Passenger transport by air,07.3.3,0,07
+2016,100.5,Passenger transport by sea and inland waterway,07.3.4,0,07
+2016,100.2,Combined passenger transport,07.3.5,0,07
+2016,102.2,Other purchased transport services,07.3.6,0,07
+2016,98.8,Communications,08,1,00
+2016,102.9,Postal services,08.1,0,08
+2016,98.6,Telephone and telefax equipment and services,08.2_3,0,08
+2016,98.9,Recreation and culture,09,1,00
+2016,89.9,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2016,92.4,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2016,74.0,Information processing equipment,09.1.3,0,09
+2016,93.4,Recording media,09.1.4,0,09
+2016,100.7,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2016,102.8,Other major durables for recreation and culture,09.2,0,09
+2016,102.8,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2016,94.0,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2016,92.3,"Games, toys and hobbies",09.3.1,0,09
+2016,93.1,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2016,91.8,"Gardens, plants and flowers",09.3.3,0,09
+2016,101.6,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2016,101.7,Recreational and cultural services,09.4,0,09
+2016,103.0,Recreational and sporting services,09.4.1,0,09
+2016,101.1,Cultural services,09.4.2,0,09
+2016,100.7,"Newspapers, books and stationery",09.5,0,09
+2016,100.5,Books,09.5.1,0,09
+2016,100.8,Newspapers and periodicals,09.5.2,0,09
+2016,101.0,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2016,101.8,Package holidays,09.6,0,09
+2016,103.3,Education,10,1,00
+2016,102.0,Restaurants and hotels,11,1,00
+2016,101.0,Catering services,11.1,0,11
+2016,101.1,"Restaurants, cafes and the like",11.1.1,0,11
+2016,100.9,Canteens,11.1.2,0,11
+2016,109.1,Accommodation services,11.2,0,11
+2016,100.5,Miscellaneous goods and services,12,1,00
+2016,97.4,Personal care,12.1,0,12
+2016,100.6,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2016,96.2,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2016,93.8,Personal effects n.e.c.,12.3,0,12
+2016,98.5,"Jewellery, clocks and watches",12.3.1,0,12
+2016,90.6,Other personal effects,12.3.2,0,12
+2016,102.0,Social protection,12.4,0,12
+2016,114.3,Insurance,12.5,0,12
+2016,108.9,Insurance connected with the dwelling,12.5.2,0,12
+2016,105.3,Insurance connected with health,12.5.3,0,12
+2016,124.6,Insurance connected with transport,12.5.4,0,12
+2016,101.1,Financial services n.e.c.,12.6,0,12
+2016,100.6,Other services n.e.c.,12.7,0,12
+2017,100.1,All-items HICP,00,1,00
+2017,96.6,Food and non-alcoholic beverages,01,1,00
+2017,96.6,Food,01.1,0,01
+2017,95.2,Bread and cereals,01.1.1,0,01
+2017,96.4,Meat,01.1.2,0,01
+2017,95.9,Fish and seafood,01.1.3,0,01
+2017,96.4,"Milk, cheese and eggs",01.1.4,0,01
+2017,103.2,Oils and fats,01.1.5,0,01
+2017,100.3,Fruit,01.1.6,0,01
+2017,99.0,Vegetables,01.1.7,0,01
+2017,93.0,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2017,97.3,Food products n.e.c.,01.1.9,0,01
+2017,96.4,Non-alcoholic beverages,01.2,0,01
+2017,96.7,"Coffee, tea and cocoa",01.2.1,0,01
+2017,96.3,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2017,102.2,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2017,92.8,Alcoholic beverages,02.1,0,02
+2017,99.2,Spirits,02.1.1,0,02
+2017,86.8,Wine,02.1.2,0,02
+2017,98.7,Beer,02.1.3,0,02
+2017,113.6,Tobacco,02.2,0,02
+2017,93.4,Clothing and footwear,03,1,00
+2017,93.6,Clothing,03.1,0,03
+2017,93.3,Garments,03.1.2,0,03
+2017,95.9,Other articles of clothing and clothing accessories,03.1.3,0,03
+2017,102.1,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2017,92.2,Footwear,03.2,0,03
+2017,104.5,"Housing, water, electricity, gas and other fuels",04,1,00
+2017,115.9,Actual rentals for housing,04.1,0,04
+2017,100.0,Maintenance and repair of the dwelling,04.3,0,04
+2017,95.1,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2017,102.9,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2017,70.9,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2017,101.2,Refuse collection,04.4.2,0,04
+2017,103.1,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2017,95.9,"Electricity, gas and other fuels",04.5,0,04
+2017,95.5,Electricity,04.5.1,0,04
+2017,95.5,Gas,04.5.2,0,04
+2017,96.6,Liquid fuels,04.5.3,0,04
+2017,99.3,Solid fuels,04.5.4,0,04
+2017,92.7,"Furnishings, household equipment and routine household maintenance",05,1,00
+2017,86.5,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2017,86.5,Furniture and furnishings,05.1.1,0,05
+2017,100.1,Carpets and other floor coverings,05.1.2,0,05
+2017,87.4,Household textiles,05.2,0,05
+2017,93.9,Household appliances,05.3,0,05
+2017,93.6,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2017,100.4,Repair of household appliances,05.3.3,0,05
+2017,92.0,"Glassware, tableware and household utensils",05.4,0,05
+2017,93.1,Tools and equipment for house and garden,05.5,0,05
+2017,97.6,Goods and services for routine household maintenance,05.6,0,05
+2017,89.4,Non-durable household goods,05.6.1,0,05
+2017,108.5,Domestic services and household services,05.6.2,0,05
+2017,101.6,Health,06,1,00
+2017,100.0,"Medical products, appliances and equipment",06.1,0,06
+2017,99.7,Pharmaceutical products,06.1.1,0,06
+2017,101.3,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2017,104.4,Out-patient services,06.2,0,06
+2017,105.5,Medical services and paramedical services,06.2.1_3,0,06
+2017,102.2,Dental services,06.2.2,0,06
+2017,100.6,Hospital services,06.3,0,06
+2017,98.6,Transport,07,1,00
+2017,93.0,Purchase of vehicles,07.1,0,07
+2017,92.9,Motor cars,07.1.1,0,07
+2017,95.3,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2017,99.3,Operation of personal transport equipment,07.2,0,07
+2017,99.1,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2017,99.1,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2017,100.6,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2017,100.6,Other services in respect of personal transport equipment,07.2.4,0,07
+2017,106.9,Transport services,07.3,0,07
+2017,103.9,Passenger transport by railway,07.3.1,0,07
+2017,101.0,Passenger transport by road,07.3.2,0,07
+2017,103.2,Passenger transport by air,07.3.3,0,07
+2017,108.4,Passenger transport by sea and inland waterway,07.3.4,0,07
+2017,102.4,Combined passenger transport,07.3.5,0,07
+2017,103.2,Other purchased transport services,07.3.6,0,07
+2017,98.6,Communications,08,1,00
+2017,119.9,Postal services,08.1,0,08
+2017,97.6,Telephone and telefax equipment and services,08.2_3,0,08
+2017,97.0,Recreation and culture,09,1,00
+2017,77.0,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2017,82.8,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2017,56.5,Information processing equipment,09.1.3,0,09
+2017,76.4,Recording media,09.1.4,0,09
+2017,101.5,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2017,102.1,Other major durables for recreation and culture,09.2,0,09
+2017,102.1,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2017,85.6,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2017,81.0,"Games, toys and hobbies",09.3.1,0,09
+2017,87.7,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2017,83.7,"Gardens, plants and flowers",09.3.3,0,09
+2017,101.9,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2017,103.4,Recreational and cultural services,09.4,0,09
+2017,106.5,Recreational and sporting services,09.4.1,0,09
+2017,102.2,Cultural services,09.4.2,0,09
+2017,100.6,"Newspapers, books and stationery",09.5,0,09
+2017,99.2,Books,09.5.1,0,09
+2017,101.5,Newspapers and periodicals,09.5.2,0,09
+2017,99.1,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2017,103.9,Package holidays,09.6,0,09
+2017,105.1,Education,10,1,00
+2017,104.4,Restaurants and hotels,11,1,00
+2017,102.8,Catering services,11.1,0,11
+2017,102.9,"Restaurants, cafes and the like",11.1.1,0,11
+2017,101.8,Canteens,11.1.2,0,11
+2017,115.0,Accommodation services,11.2,0,11
+2017,98.4,Miscellaneous goods and services,12,1,00
+2017,93.7,Personal care,12.1,0,12
+2017,101.5,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2017,90.8,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2017,85.6,Personal effects n.e.c.,12.3,0,12
+2017,95.8,"Jewellery, clocks and watches",12.3.1,0,12
+2017,79.1,Other personal effects,12.3.2,0,12
+2017,103.5,Social protection,12.4,0,12
+2017,117.2,Insurance,12.5,0,12
+2017,114.2,Insurance connected with the dwelling,12.5.2,0,12
+2017,113.4,Insurance connected with health,12.5.3,0,12
+2017,117.5,Insurance connected with transport,12.5.4,0,12
+2017,101.0,Financial services n.e.c.,12.6,0,12
+2017,101.8,Other services n.e.c.,12.7,0,12
+2018,100.8,All-items HICP,00,1,00
+2018,94.7,Food and non-alcoholic beverages,01,1,00
+2018,94.5,Food,01.1,0,01
+2018,92.9,Bread and cereals,01.1.1,0,01
+2018,93.7,Meat,01.1.2,0,01
+2018,94.0,Fish and seafood,01.1.3,0,01
+2018,95.9,"Milk, cheese and eggs",01.1.4,0,01
+2018,104.1,Oils and fats,01.1.5,0,01
+2018,99.6,Fruit,01.1.6,0,01
+2018,96.4,Vegetables,01.1.7,0,01
+2018,89.0,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2018,95.3,Food products n.e.c.,01.1.9,0,01
+2018,95.8,Non-alcoholic beverages,01.2,0,01
+2018,93.4,"Coffee, tea and cocoa",01.2.1,0,01
+2018,96.4,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2018,105.1,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2018,91.7,Alcoholic beverages,02.1,0,02
+2018,98.0,Spirits,02.1.1,0,02
+2018,84.4,Wine,02.1.2,0,02
+2018,99.3,Beer,02.1.3,0,02
+2018,120.9,Tobacco,02.2,0,02
+2018,91.9,Clothing and footwear,03,1,00
+2018,92.9,Clothing,03.1,0,03
+2018,92.5,Garments,03.1.2,0,03
+2018,95.5,Other articles of clothing and clothing accessories,03.1.3,0,03
+2018,103.1,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2018,87.5,Footwear,03.2,0,03
+2018,111.3,"Housing, water, electricity, gas and other fuels",04,1,00
+2018,123.4,Actual rentals for housing,04.1,0,04
+2018,102.7,Maintenance and repair of the dwelling,04.3,0,04
+2018,97.3,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2018,105.1,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2018,71.5,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2018,101.2,Refuse collection,04.4.2,0,04
+2018,104.9,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2018,103.2,"Electricity, gas and other fuels",04.5,0,04
+2018,102.3,Electricity,04.5.1,0,04
+2018,100.2,Gas,04.5.2,0,04
+2018,112.8,Liquid fuels,04.5.3,0,04
+2018,100.0,Solid fuels,04.5.4,0,04
+2018,89.1,"Furnishings, household equipment and routine household maintenance",05,1,00
+2018,82.9,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2018,82.8,Furniture and furnishings,05.1.1,0,05
+2018,99.5,Carpets and other floor coverings,05.1.2,0,05
+2018,81.0,Household textiles,05.2,0,05
+2018,90.9,Household appliances,05.3,0,05
+2018,90.2,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2018,101.4,Repair of household appliances,05.3.3,0,05
+2018,87.0,"Glassware, tableware and household utensils",05.4,0,05
+2018,91.2,Tools and equipment for house and garden,05.5,0,05
+2018,94.5,Goods and services for routine household maintenance,05.6,0,05
+2018,81.8,Non-durable household goods,05.6.1,0,05
+2018,110.3,Domestic services and household services,05.6.2,0,05
+2018,101.9,Health,06,1,00
+2018,97.3,"Medical products, appliances and equipment",06.1,0,06
+2018,96.3,Pharmaceutical products,06.1.1,0,06
+2018,101.4,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2018,106.1,Out-patient services,06.2,0,06
+2018,107.2,Medical services and paramedical services,06.2.1_3,0,06
+2018,104.1,Dental services,06.2.2,0,06
+2018,100.9,Hospital services,06.3,0,06
+2018,99.4,Transport,07,1,00
+2018,91.6,Purchase of vehicles,07.1,0,07
+2018,91.6,Motor cars,07.1.1,0,07
+2018,92.3,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2018,104.1,Operation of personal transport equipment,07.2,0,07
+2018,102.9,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2018,105.6,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2018,101.1,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2018,100.4,Other services in respect of personal transport equipment,07.2.4,0,07
+2018,102.7,Transport services,07.3,0,07
+2018,105.6,Passenger transport by railway,07.3.1,0,07
+2018,102.9,Passenger transport by road,07.3.2,0,07
+2018,94.8,Passenger transport by air,07.3.3,0,07
+2018,111.6,Passenger transport by sea and inland waterway,07.3.4,0,07
+2018,102.8,Combined passenger transport,07.3.5,0,07
+2018,105.0,Other purchased transport services,07.3.6,0,07
+2018,97.7,Communications,08,1,00
+2018,128.0,Postal services,08.1,0,08
+2018,96.4,Telephone and telefax equipment and services,08.2_3,0,08
+2018,96.0,Recreation and culture,09,1,00
+2018,67.8,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2018,71.3,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2018,42.1,Information processing equipment,09.1.3,0,09
+2018,76.9,Recording media,09.1.4,0,09
+2018,102.6,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2018,97.3,Other major durables for recreation and culture,09.2,0,09
+2018,97.3,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2018,82.0,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2018,76.9,"Games, toys and hobbies",09.3.1,0,09
+2018,76.9,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2018,81.6,"Gardens, plants and flowers",09.3.3,0,09
+2018,101.7,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2018,103.9,Recreational and cultural services,09.4,0,09
+2018,109.8,Recreational and sporting services,09.4.1,0,09
+2018,101.0,Cultural services,09.4.2,0,09
+2018,102.2,"Newspapers, books and stationery",09.5,0,09
+2018,102.0,Books,09.5.1,0,09
+2018,104.6,Newspapers and periodicals,09.5.2,0,09
+2018,97.6,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2018,102.7,Package holidays,09.6,0,09
+2018,106.7,Education,10,1,00
+2018,106.6,Restaurants and hotels,11,1,00
+2018,105.1,Catering services,11.1,0,11
+2018,105.2,"Restaurants, cafes and the like",11.1.1,0,11
+2018,102.2,Canteens,11.1.2,0,11
+2018,116.2,Accommodation services,11.2,0,11
+2018,96.2,Miscellaneous goods and services,12,1,00
+2018,90.7,Personal care,12.1,0,12
+2018,102.8,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2018,85.8,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2018,80.8,Personal effects n.e.c.,12.3,0,12
+2018,93.5,"Jewellery, clocks and watches",12.3.1,0,12
+2018,72.4,Other personal effects,12.3.2,0,12
+2018,105.3,Social protection,12.4,0,12
+2018,111.3,Insurance,12.5,0,12
+2018,116.4,Insurance connected with the dwelling,12.5.2,0,12
+2018,108.9,Insurance connected with health,12.5.3,0,12
+2018,107.3,Insurance connected with transport,12.5.4,0,12
+2018,100.8,Financial services n.e.c.,12.6,0,12
+2018,103.9,Other services n.e.c.,12.7,0,12
+2019,101.7,All-items HICP,00,1,00
+2019,94.0,Food and non-alcoholic beverages,01,1,00
+2019,93.9,Food,01.1,0,01
+2019,92.5,Bread and cereals,01.1.1,0,01
+2019,92.8,Meat,01.1.2,0,01
+2019,93.7,Fish and seafood,01.1.3,0,01
+2019,95.0,"Milk, cheese and eggs",01.1.4,0,01
+2019,103.7,Oils and fats,01.1.5,0,01
+2019,98.7,Fruit,01.1.6,0,01
+2019,97.7,Vegetables,01.1.7,0,01
+2019,86.3,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2019,94.2,Food products n.e.c.,01.1.9,0,01
+2019,94.7,Non-alcoholic beverages,01.2,0,01
+2019,91.4,"Coffee, tea and cocoa",01.2.1,0,01
+2019,95.7,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2019,108.0,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2019,91.1,Alcoholic beverages,02.1,0,02
+2019,96.9,Spirits,02.1.1,0,02
+2019,83.3,Wine,02.1.2,0,02
+2019,99.9,Beer,02.1.3,0,02
+2019,128.8,Tobacco,02.2,0,02
+2019,90.6,Clothing and footwear,03,1,00
+2019,92.0,Clothing,03.1,0,03
+2019,91.5,Garments,03.1.2,0,03
+2019,93.5,Other articles of clothing and clothing accessories,03.1.3,0,03
+2019,104.7,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2019,84.3,Footwear,03.2,0,03
+2019,115.8,"Housing, water, electricity, gas and other fuels",04,1,00
+2019,129.9,Actual rentals for housing,04.1,0,04
+2019,105.0,Maintenance and repair of the dwelling,04.3,0,04
+2019,99.1,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2019,108.5,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2019,71.7,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2019,101.2,Refuse collection,04.4.2,0,04
+2019,105.6,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2019,105.8,"Electricity, gas and other fuels",04.5,0,04
+2019,105.5,Electricity,04.5.1,0,04
+2019,106.8,Gas,04.5.2,0,04
+2019,110.0,Liquid fuels,04.5.3,0,04
+2019,101.9,Solid fuels,04.5.4,0,04
+2019,86.3,"Furnishings, household equipment and routine household maintenance",05,1,00
+2019,79.0,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2019,78.7,Furniture and furnishings,05.1.1,0,05
+2019,98.0,Carpets and other floor coverings,05.1.2,0,05
+2019,73.1,Household textiles,05.2,0,05
+2019,88.6,Household appliances,05.3,0,05
+2019,87.8,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2019,102.1,Repair of household appliances,05.3.3,0,05
+2019,82.5,"Glassware, tableware and household utensils",05.4,0,05
+2019,89.2,Tools and equipment for house and garden,05.5,0,05
+2019,93.8,Goods and services for routine household maintenance,05.6,0,05
+2019,76.4,Non-durable household goods,05.6.1,0,05
+2019,114.1,Domestic services and household services,05.6.2,0,05
+2019,102.4,Health,06,1,00
+2019,95.8,"Medical products, appliances and equipment",06.1,0,06
+2019,95.4,Pharmaceutical products,06.1.1,0,06
+2019,97.9,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2019,108.3,Out-patient services,06.2,0,06
+2019,109.4,Medical services and paramedical services,06.2.1_3,0,06
+2019,106.1,Dental services,06.2.2,0,06
+2019,101.0,Hospital services,06.3,0,06
+2019,99.6,Transport,07,1,00
+2019,92.5,Purchase of vehicles,07.1,0,07
+2019,92.5,Motor cars,07.1.1,0,07
+2019,92.4,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2019,104.2,Operation of personal transport equipment,07.2,0,07
+2019,102.1,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2019,105.3,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2019,102.4,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2019,102.6,Other services in respect of personal transport equipment,07.2.4,0,07
+2019,101.3,Transport services,07.3,0,07
+2019,106.3,Passenger transport by railway,07.3.1,0,07
+2019,103.6,Passenger transport by road,07.3.2,0,07
+2019,92.3,Passenger transport by air,07.3.3,0,07
+2019,113.9,Passenger transport by sea and inland waterway,07.3.4,0,07
+2019,102.1,Combined passenger transport,07.3.5,0,07
+2019,106.9,Other purchased transport services,07.3.6,0,07
+2019,92.5,Communications,08,1,00
+2019,129.8,Postal services,08.1,0,08
+2019,90.9,Telephone and telefax equipment and services,08.2_3,0,08
+2019,96.7,Recreation and culture,09,1,00
+2019,59.8,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2019,62.7,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2019,33.9,Information processing equipment,09.1.3,0,09
+2019,74.6,Recording media,09.1.4,0,09
+2019,102.1,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2019,96.5,Other major durables for recreation and culture,09.2,0,09
+2019,96.5,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2019,78.4,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2019,69.9,"Games, toys and hobbies",09.3.1,0,09
+2019,68.1,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2019,79.1,"Gardens, plants and flowers",09.3.3,0,09
+2019,102.4,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2019,106.8,Recreational and cultural services,09.4,0,09
+2019,114.1,Recreational and sporting services,09.4.1,0,09
+2019,102.2,Cultural services,09.4.2,0,09
+2019,105.1,"Newspapers, books and stationery",09.5,0,09
+2019,102.5,Books,09.5.1,0,09
+2019,111.6,Newspapers and periodicals,09.5.2,0,09
+2019,97.5,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2019,103.9,Package holidays,09.6,0,09
+2019,109.2,Education,10,1,00
+2019,109.7,Restaurants and hotels,11,1,00
+2019,108.6,Catering services,11.1,0,11
+2019,108.8,"Restaurants, cafes and the like",11.1.1,0,11
+2019,104.2,Canteens,11.1.2,0,11
+2019,119.8,Accommodation services,11.2,0,11
+2019,95.9,Miscellaneous goods and services,12,1,00
+2019,90.2,Personal care,12.1,0,12
+2019,107.8,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2019,82.7,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2019,76.5,Personal effects n.e.c.,12.3,0,12
+2019,90.9,"Jewellery, clocks and watches",12.3.1,0,12
+2019,65.7,Other personal effects,12.3.2,0,12
+2019,107.6,Social protection,12.4,0,12
+2019,111.0,Insurance,12.5,0,12
+2019,109.0,Insurance connected with the dwelling,12.5.2,0,12
+2019,111.1,Insurance connected with health,12.5.3,0,12
+2019,102.0,Insurance connected with transport,12.5.4,0,12
+2019,101.4,Financial services n.e.c.,12.6,0,12
+2019,105.2,Other services n.e.c.,12.7,0,12
+2020,101.2,All-items HICP,00,1,00
+2020,92.7,Food and non-alcoholic beverages,01,1,00
+2020,92.8,Food,01.1,0,01
+2020,91.7,Bread and cereals,01.1.1,0,01
+2020,92.9,Meat,01.1.2,0,01
+2020,94.2,Fish and seafood,01.1.3,0,01
+2020,94.1,"Milk, cheese and eggs",01.1.4,0,01
+2020,103.6,Oils and fats,01.1.5,0,01
+2020,98.3,Fruit,01.1.6,0,01
+2020,94.2,Vegetables,01.1.7,0,01
+2020,81.9,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2020,93.9,Food products n.e.c.,01.1.9,0,01
+2020,92.2,Non-alcoholic beverages,01.2,0,01
+2020,88.7,"Coffee, tea and cocoa",01.2.1,0,01
+2020,93.4,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2020,110.6,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2020,90.6,Alcoholic beverages,02.1,0,02
+2020,101.3,Spirits,02.1.1,0,02
+2020,80.9,Wine,02.1.2,0,02
+2020,99.9,Beer,02.1.3,0,02
+2020,134.5,Tobacco,02.2,0,02
+2020,87.3,Clothing and footwear,03,1,00
+2020,89.0,Clothing,03.1,0,03
+2020,88.7,Garments,03.1.2,0,03
+2020,87.9,Other articles of clothing and clothing accessories,03.1.3,0,03
+2020,106.2,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2020,79.5,Footwear,03.2,0,03
+2020,113.4,"Housing, water, electricity, gas and other fuels",04,1,00
+2020,130.1,Actual rentals for housing,04.1,0,04
+2020,105.7,Maintenance and repair of the dwelling,04.3,0,04
+2020,98.7,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2020,112.0,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2020,73.0,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2020,102.4,Refuse collection,04.4.2,0,04
+2020,108.3,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2020,99.2,"Electricity, gas and other fuels",04.5,0,04
+2020,105.9,Electricity,04.5.1,0,04
+2020,102.2,Gas,04.5.2,0,04
+2020,83.0,Liquid fuels,04.5.3,0,04
+2020,103.5,Solid fuels,04.5.4,0,04
+2020,83.6,"Furnishings, household equipment and routine household maintenance",05,1,00
+2020,75.5,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2020,75.0,Furniture and furnishings,05.1.1,0,05
+2020,97.2,Carpets and other floor coverings,05.1.2,0,05
+2020,66.7,Household textiles,05.2,0,05
+2020,86.6,Household appliances,05.3,0,05
+2020,85.6,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2020,102.2,Repair of household appliances,05.3.3,0,05
+2020,76.7,"Glassware, tableware and household utensils",05.4,0,05
+2020,86.6,Tools and equipment for house and garden,05.5,0,05
+2020,93.1,Goods and services for routine household maintenance,05.6,0,05
+2020,70.7,Non-durable household goods,05.6.1,0,05
+2020,119.3,Domestic services and household services,05.6.2,0,05
+2020,105.2,Health,06,1,00
+2020,97.3,"Medical products, appliances and equipment",06.1,0,06
+2020,96.6,Pharmaceutical products,06.1.1,0,06
+2020,100.3,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2020,112.1,Out-patient services,06.2,0,06
+2020,113.2,Medical services and paramedical services,06.2.1_3,0,06
+2020,109.8,Dental services,06.2.2,0,06
+2020,103.7,Hospital services,06.3,0,06
+2020,97.8,Transport,07,1,00
+2020,94.2,Purchase of vehicles,07.1,0,07
+2020,94.2,Motor cars,07.1.1,0,07
+2020,93.8,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2020,102.1,Operation of personal transport equipment,07.2,0,07
+2020,103.3,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2020,101.3,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2020,103.7,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2020,104.0,Other services in respect of personal transport equipment,07.2.4,0,07
+2020,92.0,Transport services,07.3,0,07
+2020,107.2,Passenger transport by railway,07.3.1,0,07
+2020,104.3,Passenger transport by road,07.3.2,0,07
+2020,77.8,Passenger transport by air,07.3.3,0,07
+2020,127.9,Passenger transport by sea and inland waterway,07.3.4,0,07
+2020,101.6,Combined passenger transport,07.3.5,0,07
+2020,114.0,Other purchased transport services,07.3.6,0,07
+2020,86.1,Communications,08,1,00
+2020,131.1,Postal services,08.1,0,08
+2020,84.3,Telephone and telefax equipment and services,08.2_3,0,08
+2020,98.0,Recreation and culture,09,1,00
+2020,57.8,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2020,55.4,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2020,33.9,Information processing equipment,09.1.3,0,09
+2020,76.9,Recording media,09.1.4,0,09
+2020,99.9,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2020,97.5,Other major durables for recreation and culture,09.2,0,09
+2020,97.5,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2020,75.8,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2020,65.8,"Games, toys and hobbies",09.3.1,0,09
+2020,66.4,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2020,75.5,"Gardens, plants and flowers",09.3.3,0,09
+2020,102.0,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2020,109.0,Recreational and cultural services,09.4,0,09
+2020,117.2,Recreational and sporting services,09.4.1,0,09
+2020,103.7,Cultural services,09.4.2,0,09
+2020,105.8,"Newspapers, books and stationery",09.5,0,09
+2020,105.2,Books,09.5.1,0,09
+2020,115.8,Newspapers and periodicals,09.5.2,0,09
+2020,93.8,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2020,109.9,Package holidays,09.6,0,09
+2020,112.5,Education,10,1,00
+2020,111.0,Restaurants and hotels,11,1,00
+2020,110.5,Catering services,11.1,0,11
+2020,110.8,"Restaurants, cafes and the like",11.1.1,0,11
+2020,105.7,Canteens,11.1.2,0,11
+2020,115.3,Accommodation services,11.2,0,11
+2020,95.7,Miscellaneous goods and services,12,1,00
+2020,90.4,Personal care,12.1,0,12
+2020,112.2,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2020,81.0,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2020,70.0,Personal effects n.e.c.,12.3,0,12
+2020,85.5,"Jewellery, clocks and watches",12.3.1,0,12
+2020,57.9,Other personal effects,12.3.2,0,12
+2020,109.7,Social protection,12.4,0,12
+2020,111.5,Insurance,12.5,0,12
+2020,85.5,Insurance connected with the dwelling,12.5.2,0,12
+2020,117.0,Insurance connected with health,12.5.3,0,12
+2020,95.9,Insurance connected with transport,12.5.4,0,12
+2020,101.4,Financial services n.e.c.,12.6,0,12
+2020,106.0,Other services n.e.c.,12.7,0,12
+2021,103.6,All-items HICP,00,1,00
+2021,92.5,Food and non-alcoholic beverages,01,1,00
+2021,92.5,Food,01.1,0,01
+2021,92.3,Bread and cereals,01.1.1,0,01
+2021,91.7,Meat,01.1.2,0,01
+2021,93.9,Fish and seafood,01.1.3,0,01
+2021,94.2,"Milk, cheese and eggs",01.1.4,0,01
+2021,103.7,Oils and fats,01.1.5,0,01
+2021,97.8,Fruit,01.1.6,0,01
+2021,94.1,Vegetables,01.1.7,0,01
+2021,81.0,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2021,94.1,Food products n.e.c.,01.1.9,0,01
+2021,92.8,Non-alcoholic beverages,01.2,0,01
+2021,88.2,"Coffee, tea and cocoa",01.2.1,0,01
+2021,94.5,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2021,113.2,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2021,90.6,Alcoholic beverages,02.1,0,02
+2021,101.3,Spirits,02.1.1,0,02
+2021,81.8,Wine,02.1.2,0,02
+2021,97.9,Beer,02.1.3,0,02
+2021,141.0,Tobacco,02.2,0,02
+2021,84.6,Clothing and footwear,03,1,00
+2021,86.4,Clothing,03.1,0,03
+2021,86.1,Garments,03.1.2,0,03
+2021,84.1,Other articles of clothing and clothing accessories,03.1.3,0,03
+2021,107.4,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2021,76.5,Footwear,03.2,0,03
+2021,120.7,"Housing, water, electricity, gas and other fuels",04,1,00
+2021,133.8,Actual rentals for housing,04.1,0,04
+2021,109.4,Maintenance and repair of the dwelling,04.3,0,04
+2021,102.2,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2021,115.5,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2021,74.0,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2021,102.8,Refuse collection,04.4.2,0,04
+2021,110.9,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2021,113.0,"Electricity, gas and other fuels",04.5,0,04
+2021,119.0,Electricity,04.5.1,0,04
+2021,110.2,Gas,04.5.2,0,04
+2021,108.4,Liquid fuels,04.5.3,0,04
+2021,108.4,Solid fuels,04.5.4,0,04
+2021,83.3,"Furnishings, household equipment and routine household maintenance",05,1,00
+2021,76.1,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2021,75.7,Furniture and furnishings,05.1.1,0,05
+2021,96.9,Carpets and other floor coverings,05.1.2,0,05
+2021,63.2,Household textiles,05.2,0,05
+2021,91.1,Household appliances,05.3,0,05
+2021,90.4,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2021,102.2,Repair of household appliances,05.3.3,0,05
+2021,76.3,"Glassware, tableware and household utensils",05.4,0,05
+2021,85.7,Tools and equipment for house and garden,05.5,0,05
+2021,91.8,Goods and services for routine household maintenance,05.6,0,05
+2021,67.4,Non-durable household goods,05.6.1,0,05
+2021,120.3,Domestic services and household services,05.6.2,0,05
+2021,107.8,Health,06,1,00
+2021,96.2,"Medical products, appliances and equipment",06.1,0,06
+2021,95.0,Pharmaceutical products,06.1.1,0,06
+2021,101.5,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2021,115.2,Out-patient services,06.2,0,06
+2021,115.7,Medical services and paramedical services,06.2.1_3,0,06
+2021,114.2,Dental services,06.2.2,0,06
+2021,107.3,Hospital services,06.3,0,06
+2021,104.2,Transport,07,1,00
+2021,99.9,Purchase of vehicles,07.1,0,07
+2021,99.9,Motor cars,07.1.1,0,07
+2021,98.1,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2021,110.9,Operation of personal transport equipment,07.2,0,07
+2021,106.3,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2021,112.5,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2021,106.4,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2021,114.8,Other services in respect of personal transport equipment,07.2.4,0,07
+2021,90.8,Transport services,07.3,0,07
+2021,107.2,Passenger transport by railway,07.3.1,0,07
+2021,104.2,Passenger transport by road,07.3.2,0,07
+2021,76.1,Passenger transport by air,07.3.3,0,07
+2021,136.2,Passenger transport by sea and inland waterway,07.3.4,0,07
+2021,101.6,Combined passenger transport,07.3.5,0,07
+2021,119.4,Other purchased transport services,07.3.6,0,07
+2021,86.4,Communications,08,1,00
+2021,134.6,Postal services,08.1,0,08
+2021,84.5,Telephone and telefax equipment and services,08.2_3,0,08
+2021,99.1,Recreation and culture,09,1,00
+2021,56.6,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2021,55.0,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2021,31.7,Information processing equipment,09.1.3,0,09
+2021,83.9,Recording media,09.1.4,0,09
+2021,99.8,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2021,100.5,Other major durables for recreation and culture,09.2,0,09
+2021,100.5,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2021,74.6,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2021,63.9,"Games, toys and hobbies",09.3.1,0,09
+2021,65.4,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2021,72.9,"Gardens, plants and flowers",09.3.3,0,09
+2021,103.4,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2021,109.8,Recreational and cultural services,09.4,0,09
+2021,119.1,Recreational and sporting services,09.4.1,0,09
+2021,103.3,Cultural services,09.4.2,0,09
+2021,106.6,"Newspapers, books and stationery",09.5,0,09
+2021,106.0,Books,09.5.1,0,09
+2021,118.7,Newspapers and periodicals,09.5.2,0,09
+2021,92.9,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2021,116.4,Package holidays,09.6,0,09
+2021,112.7,Education,10,1,00
+2021,114.4,Restaurants and hotels,11,1,00
+2021,113.7,Catering services,11.1,0,11
+2021,114.0,"Restaurants, cafes and the like",11.1.1,0,11
+2021,108.6,Canteens,11.1.2,0,11
+2021,122.8,Accommodation services,11.2,0,11
+2021,95.2,Miscellaneous goods and services,12,1,00
+2021,90.7,Personal care,12.1,0,12
+2021,116.8,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2021,79.2,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2021,63.2,Personal effects n.e.c.,12.3,0,12
+2021,76.3,"Jewellery, clocks and watches",12.3.1,0,12
+2021,53.0,Other personal effects,12.3.2,0,12
+2021,110.6,Social protection,12.4,0,12
+2021,112.1,Insurance,12.5,0,12
+2021,84.9,Insurance connected with the dwelling,12.5.2,0,12
+2021,121.0,Insurance connected with health,12.5.3,0,12
+2021,90.7,Insurance connected with transport,12.5.4,0,12
+2021,101.3,Financial services n.e.c.,12.6,0,12
+2021,107.6,Other services n.e.c.,12.7,0,12
+2022,112.0,All-items HICP,00,1,00
+2022,98.9,Food and non-alcoholic beverages,01,1,00
+2022,99.0,Food,01.1,0,01
+2022,99.9,Bread and cereals,01.1.1,0,01
+2022,100.1,Meat,01.1.2,0,01
+2022,98.1,Fish and seafood,01.1.3,0,01
+2022,105.0,"Milk, cheese and eggs",01.1.4,0,01
+2022,118.3,Oils and fats,01.1.5,0,01
+2022,101.1,Fruit,01.1.6,0,01
+2022,96.9,Vegetables,01.1.7,0,01
+2022,84.3,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2022,99.9,Food products n.e.c.,01.1.9,0,01
+2022,97.6,Non-alcoholic beverages,01.2,0,01
+2022,91.0,"Coffee, tea and cocoa",01.2.1,0,01
+2022,100.3,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2022,122.2,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2022,98.6,Alcoholic beverages,02.1,0,02
+2022,112.6,Spirits,02.1.1,0,02
+2022,86.5,Wine,02.1.2,0,02
+2022,110.5,Beer,02.1.3,0,02
+2022,149.8,Tobacco,02.2,0,02
+2022,86.4,Clothing and footwear,03,1,00
+2022,87.6,Clothing,03.1,0,03
+2022,87.3,Garments,03.1.2,0,03
+2022,83.7,Other articles of clothing and clothing accessories,03.1.3,0,03
+2022,112.1,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2022,80.6,Footwear,03.2,0,03
+2022,149.7,"Housing, water, electricity, gas and other fuels",04,1,00
+2022,146.9,Actual rentals for housing,04.1,0,04
+2022,116.7,Maintenance and repair of the dwelling,04.3,0,04
+2022,110.8,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2022,119.4,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2022,76.4,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2022,105.0,Refuse collection,04.4.2,0,04
+2022,115.8,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2022,172.0,"Electricity, gas and other fuels",04.5,0,04
+2022,168.6,Electricity,04.5.1,0,04
+2022,174.9,Gas,04.5.2,0,04
+2022,193.3,Liquid fuels,04.5.3,0,04
+2022,140.5,Solid fuels,04.5.4,0,04
+2022,86.2,"Furnishings, household equipment and routine household maintenance",05,1,00
+2022,78.7,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2022,78.2,Furniture and furnishings,05.1.1,0,05
+2022,100.4,Carpets and other floor coverings,05.1.2,0,05
+2022,59.4,Household textiles,05.2,0,05
+2022,97.4,Household appliances,05.3,0,05
+2022,97.1,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2022,102.4,Repair of household appliances,05.3.3,0,05
+2022,76.4,"Glassware, tableware and household utensils",05.4,0,05
+2022,88.9,Tools and equipment for house and garden,05.5,0,05
+2022,96.8,Goods and services for routine household maintenance,05.6,0,05
+2022,72.6,Non-durable household goods,05.6.1,0,05
+2022,124.2,Domestic services and household services,05.6.2,0,05
+2022,108.5,Health,06,1,00
+2022,94.9,"Medical products, appliances and equipment",06.1,0,06
+2022,92.8,Pharmaceutical products,06.1.1,0,06
+2022,104.7,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2022,118.1,Out-patient services,06.2,0,06
+2022,118.6,Medical services and paramedical services,06.2.1_3,0,06
+2022,116.9,Dental services,06.2.2,0,06
+2022,107.6,Hospital services,06.3,0,06
+2022,118.9,Transport,07,1,00
+2022,111.0,Purchase of vehicles,07.1,0,07
+2022,111.2,Motor cars,07.1.1,0,07
+2022,101.7,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2022,134.2,Operation of personal transport equipment,07.2,0,07
+2022,114.0,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2022,143.5,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2022,110.4,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2022,140.4,Other services in respect of personal transport equipment,07.2.4,0,07
+2022,97.0,Transport services,07.3,0,07
+2022,92.5,Passenger transport by railway,07.3.1,0,07
+2022,91.2,Passenger transport by road,07.3.2,0,07
+2022,98.9,Passenger transport by air,07.3.3,0,07
+2022,152.5,Passenger transport by sea and inland waterway,07.3.4,0,07
+2022,86.0,Combined passenger transport,07.3.5,0,07
+2022,124.0,Other purchased transport services,07.3.6,0,07
+2022,88.9,Communications,08,1,00
+2022,148.9,Postal services,08.1,0,08
+2022,86.6,Telephone and telefax equipment and services,08.2_3,0,08
+2022,101.7,Recreation and culture,09,1,00
+2022,54.8,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2022,54.7,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2022,29.6,Information processing equipment,09.1.3,0,09
+2022,83.1,Recording media,09.1.4,0,09
+2022,100.3,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2022,103.8,Other major durables for recreation and culture,09.2,0,09
+2022,103.8,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2022,76.3,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2022,61.2,"Games, toys and hobbies",09.3.1,0,09
+2022,67.0,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2022,73.8,"Gardens, plants and flowers",09.3.3,0,09
+2022,112.5,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2022,112.4,Recreational and cultural services,09.4,0,09
+2022,121.9,Recreational and sporting services,09.4.1,0,09
+2022,105.8,Cultural services,09.4.2,0,09
+2022,112.3,"Newspapers, books and stationery",09.5,0,09
+2022,108.9,Books,09.5.1,0,09
+2022,130.0,Newspapers and periodicals,09.5.2,0,09
+2022,94.8,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2022,120.3,Package holidays,09.6,0,09
+2022,110.1,Education,10,1,00
+2022,121.2,Restaurants and hotels,11,1,00
+2022,118.8,Catering services,11.1,0,11
+2022,119.2,"Restaurants, cafes and the like",11.1.1,0,11
+2022,109.3,Canteens,11.1.2,0,11
+2022,144.7,Accommodation services,11.2,0,11
+2022,95.4,Miscellaneous goods and services,12,1,00
+2022,92.9,Personal care,12.1,0,12
+2022,121.4,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2022,80.5,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2022,58.1,Personal effects n.e.c.,12.3,0,12
+2022,66.5,"Jewellery, clocks and watches",12.3.1,0,12
+2022,52.2,Other personal effects,12.3.2,0,12
+2022,111.7,Social protection,12.4,0,12
+2022,109.3,Insurance,12.5,0,12
+2022,91.0,Insurance connected with the dwelling,12.5.2,0,12
+2022,120.3,Insurance connected with health,12.5.3,0,12
+2022,83.1,Insurance connected with transport,12.5.4,0,12
+2022,101.8,Financial services n.e.c.,12.6,0,12
+2022,109.4,Other services n.e.c.,12.7,0,12
+2023,117.8,All-items HICP,00,1,00
+2023,108.6,Food and non-alcoholic beverages,01,1,00
+2023,108.6,Food,01.1,0,01
+2023,109.7,Bread and cereals,01.1.1,0,01
+2023,108.7,Meat,01.1.2,0,01
+2023,105.2,Fish and seafood,01.1.3,0,01
+2023,116.7,"Milk, cheese and eggs",01.1.4,0,01
+2023,131.3,Oils and fats,01.1.5,0,01
+2023,108.2,Fruit,01.1.6,0,01
+2023,107.2,Vegetables,01.1.7,0,01
+2023,94.0,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2023,111.6,Food products n.e.c.,01.1.9,0,01
+2023,108.8,Non-alcoholic beverages,01.2,0,01
+2023,99.5,"Coffee, tea and cocoa",01.2.1,0,01
+2023,112.6,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2023,127.8,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2023,103.1,Alcoholic beverages,02.1,0,02
+2023,116.5,Spirits,02.1.1,0,02
+2023,89.0,Wine,02.1.2,0,02
+2023,118.3,Beer,02.1.3,0,02
+2023,157.6,Tobacco,02.2,0,02
+2023,89.3,Clothing and footwear,03,1,00
+2023,90.4,Clothing,03.1,0,03
+2023,90.1,Garments,03.1.2,0,03
+2023,85.8,Other articles of clothing and clothing accessories,03.1.3,0,03
+2023,117.7,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2023,83.8,Footwear,03.2,0,03
+2023,165.8,"Housing, water, electricity, gas and other fuels",04,1,00
+2023,157.7,Actual rentals for housing,04.1,0,04
+2023,123.7,Maintenance and repair of the dwelling,04.3,0,04
+2023,116.3,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2023,129.3,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2023,79.6,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2023,110.8,Refuse collection,04.4.2,0,04
+2023,119.2,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2023,198.0,"Electricity, gas and other fuels",04.5,0,04
+2023,209.9,Electricity,04.5.1,0,04
+2023,234.5,Gas,04.5.2,0,04
+2023,161.4,Liquid fuels,04.5.3,0,04
+2023,166.4,Solid fuels,04.5.4,0,04
+2023,88.3,"Furnishings, household equipment and routine household maintenance",05,1,00
+2023,76.6,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2023,75.7,Furniture and furnishings,05.1.1,0,05
+2023,105.7,Carpets and other floor coverings,05.1.2,0,05
+2023,58.3,Household textiles,05.2,0,05
+2023,102.6,Household appliances,05.3,0,05
+2023,102.5,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2023,103.6,Repair of household appliances,05.3.3,0,05
+2023,77.8,"Glassware, tableware and household utensils",05.4,0,05
+2023,92.1,Tools and equipment for house and garden,05.5,0,05
+2023,103.3,Goods and services for routine household maintenance,05.6,0,05
+2023,79.6,Non-durable household goods,05.6.1,0,05
+2023,128.4,Domestic services and household services,05.6.2,0,05
+2023,108.3,Health,06,1,00
+2023,97.6,"Medical products, appliances and equipment",06.1,0,06
+2023,95.7,Pharmaceutical products,06.1.1,0,06
+2023,106.7,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2023,122.6,Out-patient services,06.2,0,06
+2023,122.9,Medical services and paramedical services,06.2.1_3,0,06
+2023,122.0,Dental services,06.2.2,0,06
+2023,103.5,Hospital services,06.3,0,06
+2023,119.0,Transport,07,1,00
+2023,116.9,Purchase of vehicles,07.1,0,07
+2023,117.3,Motor cars,07.1.1,0,07
+2023,102.6,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2023,126.6,Operation of personal transport equipment,07.2,0,07
+2023,119.1,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2023,128.9,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2023,118.1,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2023,133.5,Other services in respect of personal transport equipment,07.2.4,0,07
+2023,100.6,Transport services,07.3,0,07
+2023,85.2,Passenger transport by railway,07.3.1,0,07
+2023,82.0,Passenger transport by road,07.3.2,0,07
+2023,112.5,Passenger transport by air,07.3.3,0,07
+2023,154.5,Passenger transport by sea and inland waterway,07.3.4,0,07
+2023,80.3,Combined passenger transport,07.3.5,0,07
+2023,129.9,Other purchased transport services,07.3.6,0,07
+2023,90.0,Communications,08,1,00
+2023,150.4,Postal services,08.1,0,08
+2023,87.7,Telephone and telefax equipment and services,08.2_3,0,08
+2023,109.6,Recreation and culture,09,1,00
+2023,54.6,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2023,53.9,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2023,28.9,Information processing equipment,09.1.3,0,09
+2023,86.8,Recording media,09.1.4,0,09
+2023,101.7,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2023,103.0,Other major durables for recreation and culture,09.2,0,09
+2023,103.0,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2023,79.2,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2023,59.2,"Games, toys and hobbies",09.3.1,0,09
+2023,68.5,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2023,73.7,"Gardens, plants and flowers",09.3.3,0,09
+2023,127.5,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2023,116.9,Recreational and cultural services,09.4,0,09
+2023,129.0,Recreational and sporting services,09.4.1,0,09
+2023,107.8,Cultural services,09.4.2,0,09
+2023,114.3,"Newspapers, books and stationery",09.5,0,09
+2023,104.0,Books,09.5.1,0,09
+2023,135.4,Newspapers and periodicals,09.5.2,0,09
+2023,97.5,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2023,155.4,Package holidays,09.6,0,09
+2023,105.3,Education,10,1,00
+2023,130.7,Restaurants and hotels,11,1,00
+2023,127.1,Catering services,11.1,0,11
+2023,127.5,"Restaurants, cafes and the like",11.1.1,0,11
+2023,116.8,Canteens,11.1.2,0,11
+2023,159.4,Accommodation services,11.2,0,11
+2023,95.5,Miscellaneous goods and services,12,1,00
+2023,98.8,Personal care,12.1,0,12
+2023,128.4,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2023,85.8,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2023,54.0,Personal effects n.e.c.,12.3,0,12
+2023,58.4,"Jewellery, clocks and watches",12.3.1,0,12
+2023,51.6,Other personal effects,12.3.2,0,12
+2023,91.0,Social protection,12.4,0,12
+2023,112.5,Insurance,12.5,0,12
+2023,94.0,Insurance connected with the dwelling,12.5.2,0,12
+2023,126.2,Insurance connected with health,12.5.3,0,12
+2023,81.8,Insurance connected with transport,12.5.4,0,12
+2023,101.6,Financial services n.e.c.,12.6,0,12
+2023,112.1,Other services n.e.c.,12.7,0,12
+2024,119.4,All-items HICP,00,1,00
+2024,111.4,Food and non-alcoholic beverages,01,1,00
+2024,111.1,Food,01.1,0,01
+2024,112.3,Bread and cereals,01.1.1,0,01
+2024,109.0,Meat,01.1.2,0,01
+2024,105.7,Fish and seafood,01.1.3,0,01
+2024,116.9,"Milk, cheese and eggs",01.1.4,0,01
+2024,133.8,Oils and fats,01.1.5,0,01
+2024,110.4,Fruit,01.1.6,0,01
+2024,113.8,Vegetables,01.1.7,0,01
+2024,98.9,"Sugar, jam, honey, chocolate and confectionery",01.1.8,0,01
+2024,116.5,Food products n.e.c.,01.1.9,0,01
+2024,113.5,Non-alcoholic beverages,01.2,0,01
+2024,102.5,"Coffee, tea and cocoa",01.2.1,0,01
+2024,118.1,"Mineral waters, soft drinks, fruit and vegetable juices",01.2.2,0,01
+2024,132.6,"Alcoholic beverages, tobacco and narcotics",02,1,00
+2024,104.5,Alcoholic beverages,02.1,0,02
+2024,118.7,Spirits,02.1.1,0,02
+2024,89.4,Wine,02.1.2,0,02
+2024,120.8,Beer,02.1.3,0,02
+2024,168.4,Tobacco,02.2,0,02
+2024,83.8,Clothing and footwear,03,1,00
+2024,85.2,Clothing,03.1,0,03
+2024,84.2,Garments,03.1.2,0,03
+2024,88.5,Other articles of clothing and clothing accessories,03.1.3,0,03
+2024,122.0,"Cleaning, repair and hire of clothing",03.1.4,0,03
+2024,77.4,Footwear,03.2,0,03
+2024,160.4,"Housing, water, electricity, gas and other fuels",04,1,00
+2024,166.1,Actual rentals for housing,04.1,0,04
+2024,125.6,Maintenance and repair of the dwelling,04.3,0,04
+2024,117.2,Materials for the maintenance and repair of the dwelling,04.3.1,0,04
+2024,133.9,Services for the maintenance and repair of the dwelling,04.3.2,0,04
+2024,82.6,Water supply and miscellaneous services relating to the dwelling,04.4,0,04
+2024,115.4,Refuse collection,04.4.2,0,04
+2024,123.0,Other services relating to the dwelling n.e.c.,04.4.4,0,04
+2024,170.6,"Electricity, gas and other fuels",04.5,0,04
+2024,172.7,Electricity,04.5.1,0,04
+2024,197.1,Gas,04.5.2,0,04
+2024,157.2,Liquid fuels,04.5.3,0,04
+2024,155.3,Solid fuels,04.5.4,0,04
+2024,87.6,"Furnishings, household equipment and routine household maintenance",05,1,00
+2024,75.2,"Furniture and furnishings, carpets and other floor coverings",05.1,0,05
+2024,74.3,Furniture and furnishings,05.1.1,0,05
+2024,104.9,Carpets and other floor coverings,05.1.2,0,05
+2024,55.5,Household textiles,05.2,0,05
+2024,102.1,Household appliances,05.3,0,05
+2024,101.9,Major household appliances whether electric or not and small electric household appliances,05.3.1_2,0,05
+2024,105.0,Repair of household appliances,05.3.3,0,05
+2024,76.0,"Glassware, tableware and household utensils",05.4,0,05
+2024,93.0,Tools and equipment for house and garden,05.5,0,05
+2024,104.3,Goods and services for routine household maintenance,05.6,0,05
+2024,79.7,Non-durable household goods,05.6.1,0,05
+2024,131.0,Domestic services and household services,05.6.2,0,05
+2024,109.4,Health,06,1,00
+2024,100.3,"Medical products, appliances and equipment",06.1,0,06
+2024,98.5,Pharmaceutical products,06.1.1,0,06
+2024,108.2,"Other medical products, therapeutic appliances and equipment",06.1.2_3,0,06
+2024,126.1,Out-patient services,06.2,0,06
+2024,126.1,Medical services and paramedical services,06.2.1_3,0,06
+2024,125.9,Dental services,06.2.2,0,06
+2024,102.5,Hospital services,06.3,0,06
+2024,122.2,Transport,07,1,00
+2024,119.2,Purchase of vehicles,07.1,0,07
+2024,119.6,Motor cars,07.1.1,0,07
+2024,100.2,"Motor cycles, bicycles and animal drawn vehicles",07.1.2_3_4,0,07
+2024,131.4,Operation of personal transport equipment,07.2,0,07
+2024,121.5,Spare parts and accessories for personal transport equipment,07.2.1,0,07
+2024,133.1,Fuels and lubricants for personal transport equipment,07.2.2,0,07
+2024,126.4,Maintenance and repair of personal transport equipment,07.2.3,0,07
+2024,136.6,Other services in respect of personal transport equipment,07.2.4,0,07
+2024,102.1,Transport services,07.3,0,07
+2024,85.5,Passenger transport by railway,07.3.1,0,07
+2024,82.7,Passenger transport by road,07.3.2,0,07
+2024,115.1,Passenger transport by air,07.3.3,0,07
+2024,157.1,Passenger transport by sea and inland waterway,07.3.4,0,07
+2024,80.3,Combined passenger transport,07.3.5,0,07
+2024,132.4,Other purchased transport services,07.3.6,0,07
+2024,91.0,Communications,08,1,00
+2024,154.3,Postal services,08.1,0,08
+2024,88.6,Telephone and telefax equipment and services,08.2_3,0,08
+2024,114.5,Recreation and culture,09,1,00
+2024,53.0,"Audio-visual, photographic and information processing equipment",09.1,0,09
+2024,52.7,"Equipment for the reception, recording and reproduction of sound and picture",09.1.1,0,09
+2024,27.1,Information processing equipment,09.1.3,0,09
+2024,90.2,Recording media,09.1.4,0,09
+2024,101.9,"Repair of audio-visual, photographic and information processing equipment",09.1.5,0,09
+2024,102.5,Other major durables for recreation and culture,09.2,0,09
+2024,102.5,Major durables for indoor and outdoor recreation including musical instruments,09.2.1_2,0,09
+2024,79.3,"Other recreational items and equipment, gardens and pets",09.3,0,09
+2024,57.2,"Games, toys and hobbies",09.3.1,0,09
+2024,66.7,"Equipment for sport, camping and open-air recreation",09.3.2,0,09
+2024,74.4,"Gardens, plants and flowers",09.3.3,0,09
+2024,131.6,Pets and related products; veterinary and other services for pets,09.3.4_5,0,09
+2024,121.6,Recreational and cultural services,09.4,0,09
+2024,135.9,Recreational and sporting services,09.4.1,0,09
+2024,110.3,Cultural services,09.4.2,0,09
+2024,114.7,"Newspapers, books and stationery",09.5,0,09
+2024,91.2,Books,09.5.1,0,09
+2024,143.1,Newspapers and periodicals,09.5.2,0,09
+2024,98.7,Miscellaneous printed matter; stationery and drawing materials,09.5.3_4,0,09
+2024,174.5,Package holidays,09.6,0,09
+2024,107.5,Education,10,1,00
+2024,136.8,Restaurants and hotels,11,1,00
+2024,134.0,Catering services,11.1,0,11
+2024,134.4,"Restaurants, cafes and the like",11.1.1,0,11
+2024,125.4,Canteens,11.1.2,0,11
+2024,163.6,Accommodation services,11.2,0,11
+2024,95.7,Miscellaneous goods and services,12,1,00
+2024,99.5,Personal care,12.1,0,12
+2024,135.0,Hairdressing salons and personal grooming establishments,12.1.1,0,12
+2024,84.5,"Electrical appliances for personal care; other appliances, articles and products for personal care",12.1.2_3,0,12
+2024,51.2,Personal effects n.e.c.,12.3,0,12
+2024,53.6,"Jewellery, clocks and watches",12.3.1,0,12
+2024,50.6,Other personal effects,12.3.2,0,12
+2024,86.5,Social protection,12.4,0,12
+2024,123.7,Insurance,12.5,0,12
+2024,96.7,Insurance connected with the dwelling,12.5.2,0,12
+2024,140.3,Insurance connected with health,12.5.3,0,12
+2024,88.7,Insurance connected with transport,12.5.4,0,12
+2024,101.7,Financial services n.e.c.,12.6,0,12
+2024,113.5,Other services n.e.c.,12.7,0,12

@@ -1,0 +1,319 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+
+  "title": {
+    "text": "Ireland Infant & Neonatal Mortality Dashboard (2012–2023)",
+    "subtitle": "Exploring mortality rates across local authorities, map patterns, and trends over time",
+    "anchor": "middle",
+    "fontSize": 26,
+    "fontWeight": "bold",
+    "subtitleFontSize": 16,
+    "subtitlePadding": 10,
+    "dy": 10,
+    "offset": 30
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/Stillbirth_and_Infant_Mort_per_1000/data/cleaned/saimpt.csv",
+    "format": { "type": "csv" }
+  },
+
+  "params": [
+    {
+      "name": "selectedYear",
+      "value": 2015,
+      "bind": {
+        "input": "range",
+        "name": "Year:",
+        "min": 2012,
+        "max": 2023,
+        "step": 1
+      }
+    },
+    {
+      "name": "selectedStat",
+      "value": "Infant Mortality Rate",
+      "bind": {
+        "input": "select",
+        "name": "Measure:",
+        "options": [
+          "Infant Mortality Rate",
+          "Neonatal Mortality Rate"
+        ]
+      }
+    }
+  ],
+
+  "vconcat": [
+    {
+      "hconcat": [
+        {
+          "title": {
+            "text": {
+              "expr": "selectedStat + ' by area of residence (' + selectedYear + ')'"
+            }
+          },
+          "width": 200,
+          "height": 650,
+          "transform": [
+            { "filter": "datum['UNIT'] == 'Rate'" },
+            { "filter": "datum['Statistic Label'] == selectedStat" },
+            { "filter": "datum['Year'] == selectedYear" },
+            {
+              "aggregate": [
+                { "op": "mean", "field": "VALUE", "as": "Rate" }
+              ],
+              "groupby": ["Area of Residence"]
+            }
+          ],
+          "mark": { "type": "bar" },
+
+          "selection": {
+            "areaSelection": {
+              "type": "multi",
+              "fields": ["Area of Residence"],
+              "toggle": "event.shiftKey",
+              "empty": "none",
+              "clear": "dblclick"
+            }
+          },
+
+          "encoding": {
+            "y": {
+              "field": "Area of Residence",
+              "type": "ordinal",
+              "sort": "-x",
+              "title": "Area of residence"
+            },
+            "x": {
+              "field": "Rate",
+              "type": "quantitative",
+              "title": "Rate (per 1,000 births)",
+              "scale": { "domain": [0, 11] }
+            },
+            "color": {
+              "value": "#4c78a8"
+            },
+            "opacity": {
+              "condition": {
+                "selection": "areaSelection",
+                "value": 1
+              },
+              "value": 0.4
+            },
+            "stroke": {
+              "value": "black"
+            },
+            "strokeWidth": {
+              "condition": {
+                "selection": "areaSelection",
+                "value": 1.5
+              },
+              "value": 0
+            },
+            "tooltip": [
+              {
+                "field": "Area of Residence",
+                "type": "nominal",
+                "title": "Area"
+              },
+              { "field": "Rate", "type": "quantitative", "title": "Rate" }
+            ]
+          }
+        },
+
+        {
+          "title": {
+            "text": {
+              "expr": "selectedStat + ' by local authority (' + selectedYear + ')'"
+            }
+          },
+          "width": 650,
+          "height": 650,
+          "layer": [
+            {
+              "data": {
+                "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/Stillbirth_and_Infant_Mort_per_1000/data/cleaned/ireland_la_with_ni.json",
+                "format": {
+                  "type": "topojson",
+                  "feature": "ireland_la_with_ni"
+                }
+              },
+              "mark": {
+                "type": "geoshape",
+                "stroke": "white",
+                "fill": "#b2b2b2"
+              },
+              "projection": {
+                "type": "mercator",
+                "center": [-12.5, 55.5],
+                "scale": 5000
+              }
+            },
+            {
+              "transform": [
+                { "filter": "datum['UNIT'] == 'Rate'" },
+                { "filter": "datum['Statistic Label'] == selectedStat" },
+                { "filter": "datum['Year'] == selectedYear" },
+                {
+                  "lookup": "TopoJsonMapping",
+                  "from": {
+                    "data": {
+                      "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/Stillbirth_and_Infant_Mort_per_1000/data/cleaned/ireland_la.json",
+                      "format": {
+                        "type": "topojson",
+                        "feature": "ireland_la"
+                      }
+                    },
+                    "key": "properties.geographic",
+                    "fields": ["type", "properties", "geometry"]
+                  },
+                  "as": ["geo_type", "geo_properties", "geo_geometry"]
+                },
+                { "filter": "isValid(datum.geo_geometry)" }
+              ],
+              "mark": {
+                "type": "geoshape",
+                "stroke": "black"
+              },
+              "projection": {
+                "type": "mercator",
+                "center": [-12.5, 55.5],
+                "scale": 5000
+              },
+              "encoding": {
+                "shape": {
+                  "field": "geo_geometry",
+                  "type": "geojson"
+                },
+                "color": {
+                  "field": "VALUE",
+                  "type": "quantitative",
+                  "title": "Rate (per 1,000 births)",
+                  "scale": {
+                    "scheme": "viridis",
+                    "reverse": true,
+                    "domain": [0, 11]
+                  }
+                },
+                "strokeWidth": {
+                  "condition": {
+                    "selection": "areaSelection",
+                    "value": 2
+                  },
+                  "value": 0.5
+                },
+                "tooltip": [
+                  {
+                    "field": "geo_properties.geographic",
+                    "type": "nominal",
+                    "title": "Local authority"
+                  },
+                  {
+                    "field": "Area of Residence",
+                    "type": "nominal",
+                    "title": "Area of residence"
+                  },
+                  { "field": "VALUE", "type": "quantitative", "title": "Rate" },
+                  { "field": "Year", "type": "quantitative", "title": "Year" },
+                  {
+                    "field": "Statistic Label",
+                    "type": "nominal",
+                    "title": "Measure"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": {
+        "text": {
+          "expr": "selectedStat + ' over time – selected counties vs national average'"
+        }
+      },
+      "width": 980,
+      "height": 220,
+      "transform": [
+        { "filter": "datum['UNIT'] == 'Rate'" },
+        { "filter": "datum['Statistic Label'] == selectedStat" }
+      ],
+      "layer": [
+        {
+          "transform": [
+            {
+              "aggregate": [
+                { "op": "mean", "field": "VALUE", "as": "NationalRate" }
+              ],
+              "groupby": ["Year"]
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "strokeDash": [4, 4]
+          },
+          "encoding": {
+            "x": { "field": "Year", "type": "quantitative" },
+            "y": {
+              "field": "NationalRate",
+              "type": "quantitative",
+              "title": "Rate (per 1,000 births)",
+              "scale": { "domain": [0, 11] }
+            },
+            "color": {
+              "value": "#666666"
+            },
+            "tooltip": [
+              { "field": "Year", "type": "quantitative", "title": "Year" },
+              {
+                "field": "NationalRate",
+                "type": "quantitative",
+                "title": "National rate"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            { "filter": { "selection": "areaSelection" } },
+            {
+              "aggregate": [
+                { "op": "mean", "field": "VALUE", "as": "Rate" }
+              ],
+              "groupby": ["Year", "Area of Residence"]
+            }
+          ],
+          "mark": "line",
+          "encoding": {
+            "x": { "field": "Year", "type": "quantitative" },
+            "y": {
+              "field": "Rate",
+              "type": "quantitative",
+              "scale": { "domain": [0, 11] }
+            },
+            "color": {
+              "field": "Area of Residence",
+              "type": "nominal",
+              "title": "Selected county"
+            },
+            "size": {
+              "value": 3
+            },
+            "tooltip": [
+              {
+                "field": "Area of Residence",
+                "type": "nominal",
+                "title": "Area"
+              },
+              { "field": "Year", "type": "quantitative", "title": "Year" },
+              { "field": "Rate", "type": "quantitative", "title": "Rate" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

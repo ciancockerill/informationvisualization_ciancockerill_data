@@ -35,6 +35,7 @@ def main():
     df['TopoJsonMapping'] = df['Area of Residence'].apply(to_topojson_mapping)
 
     df = df.dropna(subset=["VALUE"])
+    df = df[df["VALUE"] != 0.0]
     df = df[df["VALUE"].astype(str).str.strip() != ""]
 
     df.to_csv('Stillbirth_and_Infant_Mort_per_1000/data/cleaned/saimpt.csv', index=False)

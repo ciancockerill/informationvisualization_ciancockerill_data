@@ -21,6 +21,7 @@ Infant Mortality Rate,2012,Kerry,Rate,4.1,Kerry County
 Infant Mortality Rate,2012,Limerick City,Rate,3.6,Limerick City
 Infant Mortality Rate,2012,Limerick County,Rate,4.9,Limerick County
 Infant Mortality Rate,2012,North Tipperary,Rate,9.6,North Tipperary
+Infant Mortality Rate,2012,South Tipperary,Rate,0.0,South Tipperary
 Infant Mortality Rate,2012,Waterford City,Rate,5.0,Waterford City
 Infant Mortality Rate,2012,Waterford County,Rate,4.6,Waterford County
 Infant Mortality Rate,2012,Galway City,Rate,3.4,Galway City
@@ -126,6 +127,7 @@ Infant Mortality Rate,2015,Limerick County,Rate,4.2,Limerick County
 Infant Mortality Rate,2015,North Tipperary,Rate,2.0,North Tipperary
 Infant Mortality Rate,2015,South Tipperary,Rate,2.7,South Tipperary
 Infant Mortality Rate,2015,Waterford City,Rate,1.5,Waterford City
+Infant Mortality Rate,2015,Waterford County,Rate,0.0,Waterford County
 Infant Mortality Rate,2015,Galway City,Rate,1.9,Galway City
 Infant Mortality Rate,2015,Galway County,Rate,5.7,Galway County
 Infant Mortality Rate,2015,Leitrim,Rate,4.8,Leitrim County
@@ -198,7 +200,9 @@ Infant Mortality Rate,2017,Waterford City,Rate,1.8,Waterford City
 Infant Mortality Rate,2017,Waterford County,Rate,3.6,Waterford County
 Infant Mortality Rate,2017,Galway City,Rate,3.3,Galway City
 Infant Mortality Rate,2017,Galway County,Rate,2.1,Galway County
+Infant Mortality Rate,2017,Leitrim,Rate,0.0,Leitrim County
 Infant Mortality Rate,2017,Mayo,Rate,0.7,Mayo County
+Infant Mortality Rate,2017,Roscommon,Rate,0.0,Roscommon County
 Infant Mortality Rate,2017,Sligo,Rate,5.4,Sligo County
 Infant Mortality Rate,2017,Cavan,Rate,3.8,Cavan County
 Infant Mortality Rate,2017,Donegal,Rate,6.0,Donegal County
@@ -212,6 +216,7 @@ Infant Mortality Rate,2018,Dun Laoghaire-Rathdown,Rate,1.5,Dun Laoghaire-Rathdow
 Infant Mortality Rate,2018,Kildare,Rate,2.6,Kildare County
 Infant Mortality Rate,2018,Kilkenny,Rate,1.8,Kilkenny County
 Infant Mortality Rate,2018,Laois,Rate,0.9,Laois County
+Infant Mortality Rate,2018,Longford,Rate,0.0,Longford County
 Infant Mortality Rate,2018,Louth,Rate,3.5,Louth County
 Infant Mortality Rate,2018,Meath,Rate,4.9,Meath County
 Infant Mortality Rate,2018,Offaly,Rate,4.2,Offaly County
@@ -226,6 +231,8 @@ Infant Mortality Rate,2018,Limerick City,Rate,6.3,Limerick City
 Infant Mortality Rate,2018,Limerick County,Rate,3.4,Limerick County
 Infant Mortality Rate,2018,Tipperary,Rate,4.3,Tipperary County
 Infant Mortality Rate,2018,Waterford City,Rate,1.6,Waterford City
+Infant Mortality Rate,2018,Waterford County,Rate,0.0,Waterford County
+Infant Mortality Rate,2018,Galway City,Rate,0.0,Galway City
 Infant Mortality Rate,2018,Galway County,Rate,3.4,Galway County
 Infant Mortality Rate,2018,Leitrim,Rate,2.4,Leitrim County
 Infant Mortality Rate,2018,Mayo,Rate,2.1,Mayo County
@@ -254,16 +261,20 @@ Infant Mortality Rate,2019,Clare,Rate,1.5,Clare County
 Infant Mortality Rate,2019,Cork City,Rate,3.1,Cork City
 Infant Mortality Rate,2019,Cork County,Rate,3.1,Cork County
 Infant Mortality Rate,2019,Kerry,Rate,2.6,Kerry County
+Infant Mortality Rate,2019,Limerick City,Rate,0.0,Limerick City
 Infant Mortality Rate,2019,Limerick County,Rate,1.3,Limerick County
 Infant Mortality Rate,2019,Tipperary,Rate,2.2,Tipperary County
 Infant Mortality Rate,2019,Waterford City,Rate,3.2,Waterford City
 Infant Mortality Rate,2019,Waterford County,Rate,2.8,Waterford County
+Infant Mortality Rate,2019,Galway City,Rate,0.0,Galway City
 Infant Mortality Rate,2019,Galway County,Rate,3.0,Galway County
 Infant Mortality Rate,2019,Leitrim,Rate,9.4,Leitrim County
 Infant Mortality Rate,2019,Mayo,Rate,3.3,Mayo County
 Infant Mortality Rate,2019,Roscommon,Rate,1.2,Roscommon County
+Infant Mortality Rate,2019,Sligo,Rate,0.0,Sligo County
 Infant Mortality Rate,2019,Cavan,Rate,3.1,Cavan County
 Infant Mortality Rate,2019,Donegal,Rate,2.8,Donegal County
+Infant Mortality Rate,2019,Monaghan,Rate,0.0,Monaghan County
 Infant Mortality Rate,2019,Dublin,Rate,2.9,Dublin County
 Infant Mortality Rate,2020,Carlow,Rate,4.0,Carlow County
 Infant Mortality Rate,2020,Dublin City,Rate,3.4,Dublin City
@@ -404,6 +415,7 @@ Neonatal Mortality Rate,2012,Dun Laoghaire-Rathdown,Rate,0.7,Dun Laoghaire-Rathd
 Neonatal Mortality Rate,2012,Kildare,Rate,3.8,Kildare County
 Neonatal Mortality Rate,2012,Kilkenny,Rate,2.2,Kilkenny County
 Neonatal Mortality Rate,2012,Laois,Rate,1.6,Laois County
+Neonatal Mortality Rate,2012,Longford,Rate,0.0,Longford County
 Neonatal Mortality Rate,2012,Louth,Rate,0.5,Louth County
 Neonatal Mortality Rate,2012,Meath,Rate,2.5,Meath County
 Neonatal Mortality Rate,2012,Offaly,Rate,1.7,Offaly County
@@ -417,6 +429,7 @@ Neonatal Mortality Rate,2012,Kerry,Rate,4.1,Kerry County
 Neonatal Mortality Rate,2012,Limerick City,Rate,2.4,Limerick City
 Neonatal Mortality Rate,2012,Limerick County,Rate,3.4,Limerick County
 Neonatal Mortality Rate,2012,North Tipperary,Rate,9.6,North Tipperary
+Neonatal Mortality Rate,2012,South Tipperary,Rate,0.0,South Tipperary
 Neonatal Mortality Rate,2012,Waterford City,Rate,2.5,Waterford City
 Neonatal Mortality Rate,2012,Waterford County,Rate,2.3,Waterford County
 Neonatal Mortality Rate,2012,Galway City,Rate,1.7,Galway City
@@ -475,6 +488,7 @@ Neonatal Mortality Rate,2014,Longford,Rate,3.5,Longford County
 Neonatal Mortality Rate,2014,Louth,Rate,3.3,Louth County
 Neonatal Mortality Rate,2014,Meath,Rate,2.3,Meath County
 Neonatal Mortality Rate,2014,Offaly,Rate,3.5,Offaly County
+Neonatal Mortality Rate,2014,Westmeath,Rate,0.0,Westmeath County
 Neonatal Mortality Rate,2014,Wexford,Rate,3.8,Wexford County
 Neonatal Mortality Rate,2014,Wicklow,Rate,2.0,Wicklow County
 Neonatal Mortality Rate,2014,Clare,Rate,6.9,Clare County
@@ -520,6 +534,8 @@ Neonatal Mortality Rate,2015,Limerick City,Rate,2.4,Limerick City
 Neonatal Mortality Rate,2015,Limerick County,Rate,3.1,Limerick County
 Neonatal Mortality Rate,2015,North Tipperary,Rate,2.0,North Tipperary
 Neonatal Mortality Rate,2015,South Tipperary,Rate,2.7,South Tipperary
+Neonatal Mortality Rate,2015,Waterford City,Rate,0.0,Waterford City
+Neonatal Mortality Rate,2015,Waterford County,Rate,0.0,Waterford County
 Neonatal Mortality Rate,2015,Galway City,Rate,1.9,Galway City
 Neonatal Mortality Rate,2015,Galway County,Rate,4.5,Galway County
 Neonatal Mortality Rate,2015,Leitrim,Rate,4.8,Leitrim County
@@ -560,6 +576,7 @@ Neonatal Mortality Rate,2016,Galway County,Rate,1.6,Galway County
 Neonatal Mortality Rate,2016,Leitrim,Rate,2.4,Leitrim County
 Neonatal Mortality Rate,2016,Mayo,Rate,4.5,Mayo County
 Neonatal Mortality Rate,2016,Roscommon,Rate,5.3,Roscommon County
+Neonatal Mortality Rate,2016,Sligo,Rate,0.0,Sligo County
 Neonatal Mortality Rate,2016,Cavan,Rate,1.9,Cavan County
 Neonatal Mortality Rate,2016,Donegal,Rate,2.6,Donegal County
 Neonatal Mortality Rate,2016,Monaghan,Rate,3.8,Monaghan County
@@ -572,6 +589,7 @@ Neonatal Mortality Rate,2017,Dun Laoghaire-Rathdown,Rate,1.5,Dun Laoghaire-Rathd
 Neonatal Mortality Rate,2017,Kildare,Rate,2.2,Kildare County
 Neonatal Mortality Rate,2017,Kilkenny,Rate,1.7,Kilkenny County
 Neonatal Mortality Rate,2017,Laois,Rate,1.7,Laois County
+Neonatal Mortality Rate,2017,Longford,Rate,0.0,Longford County
 Neonatal Mortality Rate,2017,Louth,Rate,4.0,Louth County
 Neonatal Mortality Rate,2017,Meath,Rate,1.8,Meath County
 Neonatal Mortality Rate,2017,Offaly,Rate,2.0,Offaly County
@@ -584,11 +602,15 @@ Neonatal Mortality Rate,2017,Cork County,Rate,1.6,Cork County
 Neonatal Mortality Rate,2017,Kerry,Rate,3.7,Kerry County
 Neonatal Mortality Rate,2017,Limerick City,Rate,3.8,Limerick City
 Neonatal Mortality Rate,2017,Limerick County,Rate,1.7,Limerick County
+Neonatal Mortality Rate,2017,North Tipperary,Rate,0.0,North Tipperary
 Neonatal Mortality Rate,2017,South Tipperary,Rate,4.6,South Tipperary
 Neonatal Mortality Rate,2017,Waterford City,Rate,1.8,Waterford City
 Neonatal Mortality Rate,2017,Waterford County,Rate,3.6,Waterford County
 Neonatal Mortality Rate,2017,Galway City,Rate,2.2,Galway City
 Neonatal Mortality Rate,2017,Galway County,Rate,1.6,Galway County
+Neonatal Mortality Rate,2017,Leitrim,Rate,0.0,Leitrim County
+Neonatal Mortality Rate,2017,Mayo,Rate,0.0,Mayo County
+Neonatal Mortality Rate,2017,Roscommon,Rate,0.0,Roscommon County
 Neonatal Mortality Rate,2017,Sligo,Rate,4.0,Sligo County
 Neonatal Mortality Rate,2017,Cavan,Rate,2.9,Cavan County
 Neonatal Mortality Rate,2017,Donegal,Rate,5.5,Donegal County
@@ -602,6 +624,7 @@ Neonatal Mortality Rate,2018,Dun Laoghaire-Rathdown,Rate,1.5,Dun Laoghaire-Rathd
 Neonatal Mortality Rate,2018,Kildare,Rate,2.3,Kildare County
 Neonatal Mortality Rate,2018,Kilkenny,Rate,1.8,Kilkenny County
 Neonatal Mortality Rate,2018,Laois,Rate,0.9,Laois County
+Neonatal Mortality Rate,2018,Longford,Rate,0.0,Longford County
 Neonatal Mortality Rate,2018,Louth,Rate,2.4,Louth County
 Neonatal Mortality Rate,2018,Meath,Rate,4.2,Meath County
 Neonatal Mortality Rate,2018,Offaly,Rate,4.2,Offaly County
@@ -609,12 +632,15 @@ Neonatal Mortality Rate,2018,Westmeath,Rate,2.5,Westmeath County
 Neonatal Mortality Rate,2018,Wexford,Rate,4.4,Wexford County
 Neonatal Mortality Rate,2018,Wicklow,Rate,1.8,Wicklow County
 Neonatal Mortality Rate,2018,Clare,Rate,4.4,Clare County
+Neonatal Mortality Rate,2018,Cork City,Rate,0.0,Cork City
 Neonatal Mortality Rate,2018,Cork County,Rate,1.6,Cork County
 Neonatal Mortality Rate,2018,Kerry,Rate,3.1,Kerry County
 Neonatal Mortality Rate,2018,Limerick City,Rate,6.3,Limerick City
 Neonatal Mortality Rate,2018,Limerick County,Rate,1.7,Limerick County
 Neonatal Mortality Rate,2018,Tipperary,Rate,2.4,Tipperary County
 Neonatal Mortality Rate,2018,Waterford City,Rate,1.6,Waterford City
+Neonatal Mortality Rate,2018,Waterford County,Rate,0.0,Waterford County
+Neonatal Mortality Rate,2018,Galway City,Rate,0.0,Galway City
 Neonatal Mortality Rate,2018,Galway County,Rate,2.1,Galway County
 Neonatal Mortality Rate,2018,Leitrim,Rate,2.4,Leitrim County
 Neonatal Mortality Rate,2018,Mayo,Rate,2.1,Mayo County
@@ -631,6 +657,7 @@ Neonatal Mortality Rate,2019,Fingal,Rate,1.4,Fingal
 Neonatal Mortality Rate,2019,Dun Laoghaire-Rathdown,Rate,2.8,Dun Laoghaire-Rathdown
 Neonatal Mortality Rate,2019,Kildare,Rate,3.0,Kildare County
 Neonatal Mortality Rate,2019,Kilkenny,Rate,1.8,Kilkenny County
+Neonatal Mortality Rate,2019,Laois,Rate,0.0,Laois County
 Neonatal Mortality Rate,2019,Longford,Rate,5.1,Longford County
 Neonatal Mortality Rate,2019,Louth,Rate,2.4,Louth County
 Neonatal Mortality Rate,2019,Meath,Rate,1.5,Meath County
@@ -642,15 +669,20 @@ Neonatal Mortality Rate,2019,Clare,Rate,1.5,Clare County
 Neonatal Mortality Rate,2019,Cork City,Rate,2.3,Cork City
 Neonatal Mortality Rate,2019,Cork County,Rate,1.9,Cork County
 Neonatal Mortality Rate,2019,Kerry,Rate,1.3,Kerry County
+Neonatal Mortality Rate,2019,Limerick City,Rate,0.0,Limerick City
 Neonatal Mortality Rate,2019,Limerick County,Rate,1.3,Limerick County
 Neonatal Mortality Rate,2019,Tipperary,Rate,2.2,Tipperary County
 Neonatal Mortality Rate,2019,Waterford City,Rate,3.2,Waterford City
 Neonatal Mortality Rate,2019,Waterford County,Rate,2.8,Waterford County
+Neonatal Mortality Rate,2019,Galway City,Rate,0.0,Galway City
 Neonatal Mortality Rate,2019,Galway County,Rate,1.7,Galway County
 Neonatal Mortality Rate,2019,Leitrim,Rate,9.4,Leitrim County
 Neonatal Mortality Rate,2019,Mayo,Rate,2.7,Mayo County
+Neonatal Mortality Rate,2019,Roscommon,Rate,0.0,Roscommon County
+Neonatal Mortality Rate,2019,Sligo,Rate,0.0,Sligo County
 Neonatal Mortality Rate,2019,Cavan,Rate,3.1,Cavan County
 Neonatal Mortality Rate,2019,Donegal,Rate,2.2,Donegal County
+Neonatal Mortality Rate,2019,Monaghan,Rate,0.0,Monaghan County
 Neonatal Mortality Rate,2019,Dublin,Rate,2.2,Dublin County
 Neonatal Mortality Rate,2020,Carlow,Rate,4.0,Carlow County
 Neonatal Mortality Rate,2020,Dublin City,Rate,2.3,Dublin City

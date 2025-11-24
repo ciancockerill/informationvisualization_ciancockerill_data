@@ -12,7 +12,7 @@ def to_county_group(area):
         "Dun Laoghaire-Rathdown",
         "Dún Laoghaire-Rathdown"
     ]
-    
+
     if area in dublin_areas:
         return "Dublin"
 
@@ -29,7 +29,12 @@ def to_county_group(area):
 def main():
     df = pd.read_csv('Stillbirth_and_Infant_Mort_per_1000/data/original/saimpt.csv')
     df['CountyGroup'] = df['Area of Residence'].apply(to_county_group)
+
+    df = df.dropna(subset=["VALUE"])
+    df = df[df["VALUE"].astype(str).str.strip() != ""]
+
     df.to_csv('Stillbirth_and_Infant_Mort_per_1000/data/cleaned/saimpt.csv', index=False)
+
 
     print(df)
 

@@ -5,7 +5,7 @@ import numpy as np
 # to:       "Year", "CommodityName", "CommodityCode", "IsMainCommodity", "ParentCommodity", "Value"
 
 def main():
-    df = pd.read_csv('data/original/hicp.csv')
+    df = pd.read_csv('HCIP_COICOP_Price_By_Index/data/original/hicp.csv')
 
     # Drop Statistic Label (Static String) & UNIT (Static String)
     df = df.drop(columns=['Statistic Label', 'UNIT'])
@@ -42,7 +42,7 @@ def main():
 
     df = df[order]
 
-    df.to_csv('data/cleaned/hicp.csv', index=False)
+    df.to_csv('HCIP_COICOP_Price_By_Index/data/cleaned/hicp.csv', index=False)
 
 
 if __name__ == '__main__':

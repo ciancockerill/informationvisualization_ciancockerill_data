@@ -126,6 +126,7 @@
           "title": {
             "text": {
               "expr": "selectedStat + ' by local authority (' + selectedYear + ')'"
+
             }
           },
           "width": 650,
@@ -146,20 +147,22 @@
               },
               "projection": {
                 "type": "mercator",
-                "center": [-12.5, 55.5],
+                "center": [-11.25, 55.5],
                 "scale": 5000
               }
             },
+
             {
               "transform": [
                 { "filter": "datum['UNIT'] == 'Rate'" },
                 { "filter": "datum['Statistic Label'] == selectedStat" },
                 { "filter": "datum['Year'] == selectedYear" },
+                { "filter": "selectedYear < 2018" },
                 {
                   "lookup": "TopoJsonMapping",
                   "from": {
                     "data": {
-                      "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/Stillbirth_and_Infant_Mort_per_1000/data/cleaned/ireland_la.json",
+                      "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/Stillbirth_and_Infant_Mort_per_1000/data/cleaned/ireland_la_n_s_tipperary.json",
                       "format": {
                         "type": "topojson",
                         "feature": "ireland_la"
@@ -178,7 +181,83 @@
               },
               "projection": {
                 "type": "mercator",
-                "center": [-12.5, 55.5],
+                "center": [-11.25, 55.5],
+                "scale": 5000
+              },
+              "encoding": {
+                "shape": {
+                  "field": "geo_geometry",
+                  "type": "geojson"
+                },
+                "color": {
+                  "field": "VALUE",
+                  "type": "quantitative",
+                  "title": "Rate (per 1,000 births)",
+                  "scale": {
+                    "scheme": "viridis",
+                    "reverse": true,
+                    "domain": [0, 11]
+                  }
+                },
+                "strokeWidth": {
+                  "condition": {
+                    "selection": "areaSelection",
+                    "value": 2
+                  },
+                  "value": 0.5
+                },
+                "tooltip": [
+                  {
+                    "field": "geo_properties.geographic",
+                    "type": "nominal",
+                    "title": "Local authority"
+                  },
+                  {
+                    "field": "Area of Residence",
+                    "type": "nominal",
+                    "title": "Area of residence"
+                  },
+                  { "field": "VALUE", "type": "quantitative", "title": "Rate" },
+                  { "field": "Year", "type": "quantitative", "title": "Year" },
+                  {
+                    "field": "Statistic Label",
+                    "type": "nominal",
+                    "title": "Measure"
+                  }
+                ]
+              }
+            },
+
+            {
+              "transform": [
+                { "filter": "datum['UNIT'] == 'Rate'" },
+                { "filter": "datum['Statistic Label'] == selectedStat" },
+                { "filter": "datum['Year'] == selectedYear" },
+                { "filter": "selectedYear >= 2018" },
+                {
+                  "lookup": "TopoJsonMapping",
+                  "from": {
+                    "data": {
+                      "url": "https://raw.githubusercontent.com/ciancockerill/informationvisualization_ciancockerill_data/refs/heads/main/Stillbirth_and_Infant_Mort_per_1000/data/cleaned/ireland_la_tipperary_merged.json",
+                      "format": {
+                        "type": "topojson",
+                        "feature": "ireland_la"
+                      }
+                    },
+                    "key": "properties.geographic",
+                    "fields": ["type", "properties", "geometry"]
+                  },
+                  "as": ["geo_type", "geo_properties", "geo_geometry"]
+                },
+                { "filter": "isValid(datum.geo_geometry)" }
+              ],
+              "mark": {
+                "type": "geoshape",
+                "stroke": "black"
+              },
+              "projection": {
+                "type": "mercator",
+                "center": [-11.25, 55.5],
                 "scale": 5000
               },
               "encoding": {
@@ -235,7 +314,7 @@
           "expr": "selectedStat + ' over time – selected counties vs national average'"
         }
       },
-      "width": 980,
+      "width": 900,
       "height": 220,
       "transform": [
         { "filter": "datum['UNIT'] == 'Rate'" },

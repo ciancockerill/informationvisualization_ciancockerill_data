@@ -21,7 +21,7 @@
   "params": [
     {
       "name": "selectedYear",
-      "value": 2015,
+      "value": 2012,
       "bind": {
         "input": "range",
         "name": "Year:",
@@ -77,7 +77,6 @@
               "clear": "dblclick"
             }
           },
-
           "encoding": {
             "y": {
               "field": "Area of Residence",
@@ -126,7 +125,6 @@
           "title": {
             "text": {
               "expr": "selectedStat + ' by local authority (' + selectedYear + ')'"
-
             }
           },
           "width": 650,
@@ -218,7 +216,12 @@
                     "title": "Area of residence"
                   },
                   { "field": "VALUE", "type": "quantitative", "title": "Rate" },
-                  { "field": "Year", "type": "quantitative", "title": "Year" },
+                  {
+                    "field": "Year",
+                    "type": "quantitative",
+                    "title": "Year",
+                    "format": "d"
+                  },
                   {
                     "field": "Statistic Label",
                     "type": "nominal",
@@ -294,7 +297,12 @@
                     "title": "Area of residence"
                   },
                   { "field": "VALUE", "type": "quantitative", "title": "Rate" },
-                  { "field": "Year", "type": "quantitative", "title": "Year" },
+                  {
+                    "field": "Year",
+                    "type": "quantitative",
+                    "title": "Year",
+                    "format": "d"
+                  },
                   {
                     "field": "Statistic Label",
                     "type": "nominal",
@@ -335,7 +343,11 @@
             "strokeDash": [4, 4]
           },
           "encoding": {
-            "x": { "field": "Year", "type": "quantitative" },
+            "x": {
+              "field": "Year",
+              "type": "quantitative",
+              "axis": { "format": "d" }
+            },
             "y": {
               "field": "NationalRate",
               "type": "quantitative",
@@ -346,7 +358,12 @@
               "value": "#666666"
             },
             "tooltip": [
-              { "field": "Year", "type": "quantitative", "title": "Year" },
+              {
+                "field": "Year",
+                "type": "quantitative",
+                "title": "Year",
+                "format": "d"
+              },
               {
                 "field": "NationalRate",
                 "type": "quantitative",
@@ -367,7 +384,11 @@
           ],
           "mark": "line",
           "encoding": {
-            "x": { "field": "Year", "type": "quantitative" },
+            "x": {
+              "field": "Year",
+              "type": "quantitative",
+              "axis": { "format": "d" }
+            },
             "y": {
               "field": "Rate",
               "type": "quantitative",
@@ -387,7 +408,12 @@
                 "type": "nominal",
                 "title": "Area"
               },
-              { "field": "Year", "type": "quantitative", "title": "Year" },
+              {
+                "field": "Year",
+                "type": "quantitative",
+                "title": "Year",
+                "format": "d"
+              },
               { "field": "Rate", "type": "quantitative", "title": "Rate" }
             ]
           }
